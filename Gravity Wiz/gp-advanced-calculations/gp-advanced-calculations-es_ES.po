@@ -1,0 +1,357 @@
+# Copyright (C) 2024 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Advanced Calculations\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"fgfr2mmMiD\n"
+"POT-Creation-Date: 2025-04-23T19:24:44+00:00\n"
+"PO-Revision-Date: 2025-04-30 16:53+0200\n"
+"Last-Translator: Rafael Soler <info@rafaelsoler.es>\n"
+"Language-Team: Rafael Soler <info@rafaelsoler.es>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-advanced-calculations\n"
+
+#. Plugin Name of the plugin
+#: gp-advanced-calculations.php
+msgid "GP Advanced Calculations"
+msgstr "GP Advanced Calculations"
+
+#. Plugin URI of the plugin
+#: gp-advanced-calculations.php
+msgid ""
+"https://gravitywiz.com/documentation/gravity-forms-advanced-calculations/"
+msgstr ""
+"https://gravitywiz.com/documentation/gravity-forms-advanced-calculations/"
+
+#. Description of the plugin
+#: gp-advanced-calculations.php
+msgid ""
+"Perform advanced calculations with mathematical functions, conditionals, and "
+"a powerful formula editor."
+msgstr ""
+"Realice cálculos avanzados con funciones matemáticas, condicionales y un "
+"potente editor de fórmulas."
+
+#. Author of the plugin
+#: gp-advanced-calculations.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-advanced-calculations.php
+msgid "https://gravitywiz.com/"
+msgstr "https://gravitywiz.com/"
+
+#: class-gp-advanced-calculations.php:99
+msgid "Formula Cheatsheet"
+msgstr "Resumen de fórmulas"
+
+#: class-gp-advanced-calculations.php:100
+msgid "GP Advanced Calculations Formula Cheatsheet"
+msgstr "Resumen de fórmulas de Advanced Calculations"
+
+#: class-gp-advanced-calculations.php:101
+msgid "🚫️ There appears to be a problem with the formula."
+msgstr "🚫️ Parece que hay un problema con la formula."
+
+#: class-gp-advanced-calculations.php:102
+msgid "✅ The formula appears to be valid."
+msgstr "✅ La fórmula parece ser válida."
+
+#: class-gp-advanced-calculations.php:961
+msgid "Rules"
+msgstr "Reglas"
+
+#: class-gp-advanced-calculations.php:964
+msgid ""
+"Numbers must be entered as decimal dot format (good: <code>5.20</code>) and "
+"cannot include thousands separators (bad: <code>1,000</code>) or currency "
+"symbols (bad: <code>$10</code>)."
+msgstr ""
+"Los números deben introducirse como formato decimal con punto (bien: "
+"<code>5.20</code>) y no deben llevar separadores de millares (mal: "
+"<code>1,000</code>) o símbolos de moneda (mal: <code>10€</code>)."
+
+#: class-gp-advanced-calculations.php:965
+msgid ""
+"Fields referenced in variables must be positioned before the calculation "
+"field and must not be hidden by conditional logic."
+msgstr ""
+"Los campos referenciados en variables deben situarse antes del campo de "
+"cálculo y no deben quedar ocultos por la lógica condicional."
+
+#. translators: placeholder is a URL to Gravity Forms documentation
+#: class-gp-advanced-calculations.php:971
+msgid ""
+"For a more exhaustive list of rules, see the official <a href=\"%s\" "
+"target=\"_blank\">Gravity Forms documentation</a>."
+msgstr ""
+"Para obtener una lista más exhaustiva de reglas, consulta la <a href=\"%s\" "
+"target=\"_blank\">documentación</a> oficial <a href=\"%s\" "
+"target=\"_blank\">de Gravity Forms</a>."
+
+#: class-gp-advanced-calculations.php:975
+msgid "Arithmetic"
+msgstr "Aritmético"
+
+#: class-gp-advanced-calculations.php:980
+#: class-gp-advanced-calculations.php:1076
+msgid "Operator"
+msgstr "Operador"
+
+#: class-gp-advanced-calculations.php:981
+#: class-gp-advanced-calculations.php:1077
+#: class-gp-advanced-calculations.php:1114
+msgid "Description"
+msgstr "Descripción"
+
+#: class-gp-advanced-calculations.php:987
+msgid "Add"
+msgstr "Añadir"
+
+#: class-gp-advanced-calculations.php:991
+msgid "Subtract"
+msgstr "Restar"
+
+#: class-gp-advanced-calculations.php:995
+msgid "Multiply"
+msgstr "Multiplicar"
+
+#: class-gp-advanced-calculations.php:999
+msgid "Divide"
+msgstr "Dividir"
+
+#: class-gp-advanced-calculations.php:1003
+msgid "Parenthesis; enclose parts of the formula to be calculated first."
+msgstr ""
+"Paréntesis; encierra primero las partes de la fórmula que hay que calcular."
+
+#: class-gp-advanced-calculations.php:1007
+msgid "Modulo; returns the remainder of a division."
+msgstr "Módulo; devuelve el resto de una división."
+
+#: class-gp-advanced-calculations.php:1011
+msgid "Exponentiation; raise a number to the power of an exponent."
+msgstr "Exponenciación; elevar un número a la potencia de un exponente."
+
+#: class-gp-advanced-calculations.php:1016
+msgid "Field Variables"
+msgstr "Variables de campo"
+
+#: class-gp-advanced-calculations.php:1018
+msgid ""
+"Use values from other fields in your calculations. Fields may be referenced "
+"in various ways but they functionally identical. Use the style that makes "
+"your formula most readable."
+msgstr ""
+"Utiliza valores de otros campos en tus cálculos. Los campos pueden "
+"referenciarse de varias formas, pero funcionalmente son idénticos. Utiliza "
+"el estilo que haga más legible tu fórmula."
+
+#: class-gp-advanced-calculations.php:1023
+msgid "Style"
+msgstr "Estilo"
+
+#: class-gp-advanced-calculations.php:1024
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: class-gp-advanced-calculations.php:1029
+msgid "Shorthand"
+msgstr "Abreviaturas"
+
+#: class-gp-advanced-calculations.php:1033
+msgid "Merge Tag"
+msgstr "Etiqueta de fusión"
+
+#: class-gp-advanced-calculations.php:1037
+msgid "Abbreviated Merge Tag"
+msgstr "Etiqueta abreviada de fusión"
+
+#: class-gp-advanced-calculations.php:1043
+msgid ""
+"<strong>Tip:</strong> Hover over shorthand and abbreviated merge tag "
+"variables in the formula editor to see the field's label."
+msgstr ""
+"<strong>Consejo:</strong> Pasa el ratón por encima de las variables de "
+"etiquetas abreviadas de fusión en el editor de fórmulas para ver la etiqueta "
+"del campo."
+
+#: class-gp-advanced-calculations.php:1045
+msgid "Conditional Statements"
+msgstr "Declaraciones condicionales"
+
+#: class-gp-advanced-calculations.php:1047
+msgid ""
+"Use conditional statements to specify different formulas to be used when "
+"different conditions are met. Conditions are evaluated from left to right, "
+"top to bottom. Multiple expressions/statements are allowed per block."
+msgstr ""
+"Utiliza sentencias condicionales para especificar diferentes fórmulas que se "
+"utilizarán cuando se cumplan diferentes condiciones. Las condiciones se "
+"evalúan de izquierda a derecha, de arriba abajo. Se permiten múltiples "
+"expresiones/declaraciones por bloque."
+
+#: class-gp-advanced-calculations.php:1049
+msgid "if/else"
+msgstr "si/si no"
+
+#: class-gp-advanced-calculations.php:1058
+msgid "if/elseif/else"
+msgstr "if/elseif/else"
+
+#: class-gp-advanced-calculations.php:1069
+msgid "<strong>Tip:</strong> You may use as many elseif statements as needed."
+msgstr ""
+"<strong>Consejo:</strong> Puedes utilizar tantas sentencias elseif como "
+"necesites."
+
+#: class-gp-advanced-calculations.php:1071
+msgid "Conditional Operators"
+msgstr "Operadores condicionales"
+
+#: class-gp-advanced-calculations.php:1083
+msgid "Equal to"
+msgstr "Igual a"
+
+#: class-gp-advanced-calculations.php:1087
+msgid "Not equal to"
+msgstr "No igual a"
+
+#: class-gp-advanced-calculations.php:1091
+msgid "Greater than"
+msgstr "Mayor que"
+
+#: class-gp-advanced-calculations.php:1095
+msgid "Less than"
+msgstr "Menos de"
+
+#: class-gp-advanced-calculations.php:1099
+msgid "Greater than or equal to"
+msgstr "Mayor que o igual a"
+
+#: class-gp-advanced-calculations.php:1103
+msgid "Less than or equal to"
+msgstr "Menos de o igual a"
+
+#: class-gp-advanced-calculations.php:1108
+msgid "Functions"
+msgstr "Funciones"
+
+#: class-gp-advanced-calculations.php:1113
+msgid "Function/Usage"
+msgstr "Función/Uso"
+
+#: class-gp-advanced-calculations.php:1120
+msgid "abs( value )"
+msgstr "abs( valor )"
+
+#: class-gp-advanced-calculations.php:1122
+msgid "Returns absolute value of a number"
+msgstr "Devuelve el valor absoluto de un número"
+
+#: class-gp-advanced-calculations.php:1126
+msgid "average( value1, [value2, ...] )"
+msgstr "promedio( valor1, [valor2, ...] )"
+
+#: class-gp-advanced-calculations.php:1128
+msgid "Returns the average value in the args"
+msgstr "Devuelve el valor medio de los argumentos"
+
+#: class-gp-advanced-calculations.php:1132
+msgid "ceil( value )"
+msgstr "ceil( valor )"
+
+#: class-gp-advanced-calculations.php:1134
+msgid "Rounds number up to the next largest integer"
+msgstr "Redondea el número hasta el siguiente entero mayor"
+
+#: class-gp-advanced-calculations.php:1138
+msgid "exp( value )"
+msgstr "exp( valor )"
+
+#: class-gp-advanced-calculations.php:1140
+msgid "Returns e^x, where e is Euler's number and x is the provided argument"
+msgstr ""
+"Devuelve e^x, donde e es el número de Euler y x es el argumento proporcionado"
+
+#: class-gp-advanced-calculations.php:1144
+msgid "floor( value )"
+msgstr "floor( valor )"
+
+#: class-gp-advanced-calculations.php:1146
+msgid "Returns the largest integer less than or equal to a number"
+msgstr "Devuelve el mayor número entero menor o igual que un número"
+
+#: class-gp-advanced-calculations.php:1150
+msgid ""
+"fv( rate, numberOfPeriods, paymentAmount, presentValue, [endOrBeginning] )"
+msgstr "fv( tipo, númeroDePeríodos, importePago, valorActual, [finOInicio] )"
+
+#: class-gp-advanced-calculations.php:1152
+msgid ""
+"Returns the future value of an investment based on a constant interest rate"
+msgstr ""
+"Devuelve el valor futuro de una inversión en función de un tipo de interés "
+"constante"
+
+#: class-gp-advanced-calculations.php:1156
+msgid "ln( value )"
+msgstr "ln( valor )"
+
+#: class-gp-advanced-calculations.php:1158
+msgid "Returns the logarithm of a number, base e"
+msgstr "Devuelve el logaritmo de un número, base e"
+
+#: class-gp-advanced-calculations.php:1162
+msgid "log( value )"
+msgstr "log( valor )"
+
+#: class-gp-advanced-calculations.php:1164
+msgid "Returns the logarithm of a number, base 10"
+msgstr "Devuelve el logaritmo de un número, en base 10"
+
+#: class-gp-advanced-calculations.php:1168
+msgid "max( value1, [value2, ...] )"
+msgstr "max( valor1, [valor2, ...] )"
+
+#: class-gp-advanced-calculations.php:1170
+msgid "Returns the largest value in the list of arguments"
+msgstr "Devuelve el mayor valor de la lista de argumentos"
+
+#: class-gp-advanced-calculations.php:1174
+msgid "min( value1, [value2, ...] )"
+msgstr "min( valor1, [valor2, ...] )"
+
+#: class-gp-advanced-calculations.php:1176
+msgid "Returns the smallest value in the list of arguments"
+msgstr "Devuelve el valor más pequeño de la lista de argumentos"
+
+#: class-gp-advanced-calculations.php:1180
+msgid "round( value )"
+msgstr "redondea( valor )"
+
+#: class-gp-advanced-calculations.php:1182
+msgid "Rounds a number to the nearest integer"
+msgstr "Redondea un número al entero más próximo"
+
+#: class-gp-advanced-calculations.php:1186
+msgid "pi()"
+msgstr "pi()"
+
+#: class-gp-advanced-calculations.php:1188
+msgid "Returns pi (&pi;) to 20 decimal places."
+msgstr "Devuelve pi (π) con 20 decimales."
+
+#: class-gp-advanced-calculations.php:1192
+msgid "sqrt( value )"
+msgstr "sqrt( valor )"
+
+#: class-gp-advanced-calculations.php:1194
+msgid "Returns square root of a number"
+msgstr "Devuelve la raíz cuadrada de un número"

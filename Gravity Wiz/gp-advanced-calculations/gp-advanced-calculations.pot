@@ -1,0 +1,308 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Advanced Calculations 1.1.15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-fgfr2mmMiD\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-23T19:24:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: gp-advanced-calculations\n"
+
+#. Plugin Name of the plugin
+#: gp-advanced-calculations.php
+msgid "GP Advanced Calculations"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: gp-advanced-calculations.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-advanced-calculations/"
+msgstr ""
+
+#. Description of the plugin
+#: gp-advanced-calculations.php
+msgid "Perform advanced calculations with mathematical functions, conditionals, and a powerful formula editor."
+msgstr ""
+
+#. Author of the plugin
+#: gp-advanced-calculations.php
+msgid "Gravity Wiz"
+msgstr ""
+
+#. Author URI of the plugin
+#: gp-advanced-calculations.php
+msgid "https://gravitywiz.com/"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:99
+msgid "Formula Cheatsheet"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:100
+msgid "GP Advanced Calculations Formula Cheatsheet"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:101
+msgid "🚫️ There appears to be a problem with the formula."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:102
+msgid "✅ The formula appears to be valid."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:961
+msgid "Rules"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:964
+msgid "Numbers must be entered as decimal dot format (good: <code>5.20</code>) and cannot include thousands separators (bad: <code>1,000</code>) or currency symbols (bad: <code>$10</code>)."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:965
+msgid "Fields referenced in variables must be positioned before the calculation field and must not be hidden by conditional logic."
+msgstr ""
+
+#. translators: placeholder is a URL to Gravity Forms documentation
+#: class-gp-advanced-calculations.php:971
+msgid "For a more exhaustive list of rules, see the official <a href=\"%s\" target=\"_blank\">Gravity Forms documentation</a>."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:975
+msgid "Arithmetic"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:980
+#: class-gp-advanced-calculations.php:1076
+msgid "Operator"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:981
+#: class-gp-advanced-calculations.php:1077
+#: class-gp-advanced-calculations.php:1114
+msgid "Description"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:987
+msgid "Add"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:991
+msgid "Subtract"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:995
+msgid "Multiply"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:999
+msgid "Divide"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1003
+msgid "Parenthesis; enclose parts of the formula to be calculated first."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1007
+msgid "Modulo; returns the remainder of a division."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1011
+msgid "Exponentiation; raise a number to the power of an exponent."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1016
+msgid "Field Variables"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1018
+msgid "Use values from other fields in your calculations. Fields may be referenced in various ways but they functionally identical. Use the style that makes your formula most readable."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1023
+msgid "Style"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1024
+msgid "Examples"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1029
+msgid "Shorthand"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1033
+msgid "Merge Tag"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1037
+msgid "Abbreviated Merge Tag"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1043
+msgid "<strong>Tip:</strong> Hover over shorthand and abbreviated merge tag variables in the formula editor to see the field's label."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1045
+msgid "Conditional Statements"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1047
+msgid "Use conditional statements to specify different formulas to be used when different conditions are met. Conditions are evaluated from left to right, top to bottom. Multiple expressions/statements are allowed per block."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1049
+msgid "if/else"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1058
+msgid "if/elseif/else"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1069
+msgid "<strong>Tip:</strong> You may use as many elseif statements as needed."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1071
+msgid "Conditional Operators"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1083
+msgid "Equal to"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1087
+msgid "Not equal to"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1091
+msgid "Greater than"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1095
+msgid "Less than"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1099
+msgid "Greater than or equal to"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1103
+msgid "Less than or equal to"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1108
+msgid "Functions"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1113
+msgid "Function/Usage"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1120
+msgid "abs( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1122
+msgid "Returns absolute value of a number"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1126
+msgid "average( value1, [value2, ...] )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1128
+msgid "Returns the average value in the args"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1132
+msgid "ceil( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1134
+msgid "Rounds number up to the next largest integer"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1138
+msgid "exp( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1140
+msgid "Returns e^x, where e is Euler's number and x is the provided argument"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1144
+msgid "floor( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1146
+msgid "Returns the largest integer less than or equal to a number"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1150
+msgid "fv( rate, numberOfPeriods, paymentAmount, presentValue, [endOrBeginning] )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1152
+msgid "Returns the future value of an investment based on a constant interest rate"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1156
+msgid "ln( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1158
+msgid "Returns the logarithm of a number, base e"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1162
+msgid "log( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1164
+msgid "Returns the logarithm of a number, base 10"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1168
+msgid "max( value1, [value2, ...] )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1170
+msgid "Returns the largest value in the list of arguments"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1174
+msgid "min( value1, [value2, ...] )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1176
+msgid "Returns the smallest value in the list of arguments"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1180
+msgid "round( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1182
+msgid "Rounds a number to the nearest integer"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1186
+msgid "pi()"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1188
+msgid "Returns pi (&pi;) to 20 decimal places."
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1192
+msgid "sqrt( value )"
+msgstr ""
+
+#: class-gp-advanced-calculations.php:1194
+msgid "Returns square root of a number"
+msgstr ""
