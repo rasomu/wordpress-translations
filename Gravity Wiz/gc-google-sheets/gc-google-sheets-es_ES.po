@@ -1,0 +1,390 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GC Google Sheets\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-"
+"perk-0d8F-6YbAO\n"
+"POT-Creation-Date: 2025-04-23T19:24:00+00:00\n"
+"PO-Revision-Date: 2025-04-30 16:40+0200\n"
+"Last-Translator: Rafael Soler <info@rafaelsoler.es>\n"
+"Language-Team: Rafa Soler <info@rafaelsoler.es>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gc-google-sheets\n"
+
+#. Plugin Name of the plugin
+#: gc-google-sheets.php
+msgid "GC Google Sheets"
+msgstr "GC Google Sheets"
+
+#. Plugin URI of the plugin
+#: gc-google-sheets.php
+msgid "https://gravitywiz.com/documentation/gravity-connect-google-sheets/"
+msgstr "https://gravitywiz.com/documentation/gravity-connect-google-sheets/"
+
+#. Description of the plugin
+#: gc-google-sheets.php
+msgid ""
+"Automatically send and sync Gravity Forms data with Google Sheets - and "
+"unlock new possibilities for your data."
+msgstr ""
+"Envía y sincroniza automáticamente los datos de Gravity Forms con Google "
+"Sheets, y desbloquea nuevas posibilidades para tus datos."
+
+#. Author of the plugin
+#: gc-google-sheets.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gc-google-sheets.php
+msgid "http://gravitywiz.com/"
+msgstr "https://gravitywiz.com/"
+
+#: class-gc-google-sheets.php:455
+msgid "Create New Sheet"
+msgstr "Crear nueva hoja"
+
+#: class-gc-google-sheets.php:456
+msgid "Create a new sheet inside the configured Google Drive account."
+msgstr "Crea una nueva hoja dentro de la cuenta de Google Drive configurada."
+
+#: class-gc-google-sheets.php:460
+msgid "Disconnect"
+msgstr "Desconectar"
+
+#: class-gc-google-sheets.php:461
+msgid ""
+"Deletes the authorization token that grants us permission to edit the Google "
+"Sheet."
+msgstr ""
+"Borra el token de autorización que nos da permiso para editar Google Sheets."
+
+#: class-gc-google-sheets.php:465
+msgid "Insert Test Row"
+msgstr "Insertar fila de prueba"
+
+#: class-gc-google-sheets.php:466
+msgid "Creates a new row in the Google Sheet containing sample data."
+msgstr ""
+"Crea una nueva fila en Google Sheets que contenga los datos de muestra."
+
+#: class-gc-google-sheets.php:593
+msgid "Open Spreadsheet"
+msgstr "Abrir hoja de cálculo"
+
+#. translators: placeholder is form name
+#: class-gc-google-sheets.php:938
+msgid "%s Feeds"
+msgstr "Feeds de %s"
+
+#. translators: placeholder is the plugin short title
+#: class-gc-google-sheets.php:1014
+msgid "Back to %s Settings"
+msgstr "Volver a %s ajustes"
+
+#: class-gc-google-sheets.php:1020
+msgid "Activate Perk"
+msgstr "Activar Perk"
+
+#: class-gc-google-sheets.php:1080 class-gc-google-sheets.php:1085
+msgid "Name"
+msgstr "Nombre"
+
+#: class-gc-google-sheets.php:1085
+msgid ""
+"Enter a feed name to uniquely identify this feed. If creating a new sheet, "
+"this will be used as the sheet's name."
+msgstr ""
+"Introduce un nombre de feed para identificar de forma única este feed. Si "
+"creas una hoja nueva, se utilizará como nombre de la hoja."
+
+#: class-gc-google-sheets.php:1109
+msgid "Google Sheet URL"
+msgstr "URL de Google Sheets"
+
+#: class-gc-google-sheets.php:1119
+msgid "Google Sheet ID"
+msgstr "ID de Google Sheets"
+
+#. translators: %s is an error message.
+#: class-gc-google-sheets.php:1135
+msgid "Unable to create sheet. Error: %s"
+msgstr "No se puede crear la hoja. Error: %s"
+
+#: class-gc-google-sheets.php:1143
+msgid "Google Picker Token"
+msgstr "Token de Google Picker"
+
+#: class-gc-google-sheets.php:1150
+msgid "Google Sheets Settings"
+msgstr "Configuración de Google Sheets"
+
+#: class-gc-google-sheets.php:1161
+msgid "Column Mapping"
+msgstr "Asignación de columnas"
+
+#: class-gc-google-sheets.php:1168 includes/ajax/class-feed-settings.php:329
+msgid "Sheet Column"
+msgstr "Columna de hoja"
+
+#: class-gc-google-sheets.php:1169 includes/ajax/class-feed-settings.php:330
+msgid "Column heading"
+msgstr "Cabecera de columna"
+
+#: class-gc-google-sheets.php:1178
+msgid "Additional Options"
+msgstr "Opciones adicionales"
+
+#: class-gc-google-sheets.php:1181
+msgid "Update &amp; Delete Rows"
+msgstr "Actualizar &amp; Eliminar filas"
+
+#: class-gc-google-sheets.php:1184
+msgid ""
+"When entries are edited, also edit the corresponding row in the Google "
+"Sheet. Delete rows from the Sheet when entries are moved to trash or marked "
+"as spam. Entries are re-appended to the bottom of the Sheet after being "
+"restored from trash or spam."
+msgstr ""
+"Cuando se editen entradas, edita también la fila correspondiente en la Hoja "
+"de Google. Borra filas de la hoja cuando las entradas se muevan a la "
+"papelera o se marquen como spam. Las entradas se vuelven a añadir a la parte "
+"inferior de la hoja después de ser restauradas desde la papelera o spam."
+
+#: class-gc-google-sheets.php:1187
+msgid ""
+"Edit rows when entries are edited, and delete rows when entries are trashed "
+"or marked as spam"
+msgstr ""
+"Edita las filas cuando se editen las entradas, y borra las filas cuando las "
+"entradas se tiren a la papelera o se marquen como spam"
+
+#: class-gc-google-sheets.php:1197
+msgid "Conditional Logic"
+msgstr "Lógica condicional"
+
+#. translators: %s is an error message.
+#: class-gc-google-sheets.php:1674
+msgid "Failed to update sheet columns. Error: %s"
+msgstr "Error al actualizar las columnas de la hoja. Error: %s"
+
+#: class-gc-google-sheets.php:1746 class-gc-google-sheets.php:1747
+msgid "M j, Y \\a\\t g:ia"
+msgstr "M j, Y \\a\\t g:ia"
+
+#: class-gc-google-sheets.php:1768
+msgid "To reprocess this feed, please reauthenticate with Google Sheets."
+msgstr ""
+"Para volver a procesar este feed, vuelve a autenticarte con Google Sheets."
+
+#: class-gc-google-sheets.php:1781
+msgid "Add Row"
+msgstr "Añadir fila"
+
+#: class-gc-google-sheets.php:1782
+msgid "Update Row"
+msgstr "Actualizar fila"
+
+#: class-gc-google-sheets.php:1783
+msgid "Delete Row"
+msgstr "Borrar fila"
+
+#: class-gc-google-sheets.php:1789
+msgid "View Spreadsheet"
+msgstr "Ver hoja de cálculo"
+
+#: includes/ajax/class-admin.php:19
+msgid ""
+"There was an error fetching the spreadsheets that GC Google Sheets has "
+"access to. Double check that you have permissions to edit GC Google Sheets "
+"Settings and try again."
+msgstr ""
+"Se ha producido un error al recuperar las hojas de cálculo a las que tiene "
+"acceso GC Google Sheets. Comprueba que tienes permisos para editar la "
+"configuración de GC Google Sheets e inténtalo de nuevo."
+
+#: includes/ajax/class-admin.php:28
+msgid "No Google account was selected."
+msgstr "No se ha seleccionado ninguna cuenta de Google."
+
+#: includes/ajax/class-admin.php:54
+msgid ""
+"There was an error fetching the Google accounts authorized to use GC Google "
+"Sheets. Double check that you have permissions to edit GC Google Sheets "
+"Settings and try again."
+msgstr ""
+"Se ha producido un error al obtener las cuentas de Google autorizadas para "
+"utilizar GC Google Sheets. Comprueba que tienes permisos para editar la "
+"configuración de GC Google Sheets e inténtalo de nuevo."
+
+#: includes/ajax/class-admin.php:73
+msgid ""
+"There was an error fetching the sheets for the spreadsheet. Double check "
+"that you have permissions to edit GC Google Sheets Settings and try again."
+msgstr ""
+"Se ha producido un error al obtener las hojas para la hoja de cálculo. "
+"Comprueba que tienes permisos para editar la configuración de GC Google "
+"Sheets e inténtalo de nuevo."
+
+#: includes/ajax/class-feed-settings.php:24
+msgid ""
+"There was an error disconnecting the current feed. Double check that you "
+"have permissions to use GC Google Sheets and try again."
+msgstr ""
+"Se ha producido un error al desconectar el feed actual. Comprueba que tienes "
+"permisos para utilizar GC Google Sheets e inténtalo de nuevo."
+
+#: includes/ajax/class-feed-settings.php:31
+msgid "Form ID not provided."
+msgstr "No se proporciona el ID del formulario."
+
+#: includes/ajax/class-feed-settings.php:72
+msgid ""
+"There was an error inserting a test row. Double check that you have "
+"permissions to use GC Google Sheets and try again."
+msgstr ""
+"Se ha producido un error al insertar una fila de prueba. Comprueba que "
+"tienes permisos para utilizar GC Google Sheets e inténtalo de nuevo."
+
+#: includes/ajax/class-feed-settings.php:79
+msgid "Test row insertion failed. Parameters not provided."
+msgstr ""
+"Falló la inserción de la fila de prueba. No se han proporcionado parámetros."
+
+#: includes/ajax/class-feed-settings.php:83
+msgid "Test row insertion failed."
+msgstr "Falló la inserción de la fila de prueba."
+
+#: includes/ajax/class-feed-settings.php:94
+msgid ""
+"Could not connect to Google Sheets. Please check your Google Accounts and "
+"try again."
+msgstr ""
+"No se ha podido conectar a Google Sheets. Comprueba tus cuentas de Google e "
+"inténtalo de nuevo."
+
+#: includes/ajax/class-feed-settings.php:102
+msgid " Choose at least one field to send in the Column Mapping section."
+msgstr ""
+" Elige al menos un campo para enviar en la sección «Asignación de columnas»."
+
+#: includes/ajax/class-feed-settings.php:127
+msgid ""
+"There was an error accessing the sheet. Double check that you have "
+"permissions to use GC Google Sheets and try again."
+msgstr ""
+"Se ha producido un error al acceder a la hoja. Comprueba que tienes permisos "
+"para utilizar GC Google Sheets e inténtalo de nuevo."
+
+#: includes/ajax/class-feed-settings.php:151
+#: includes/ajax/class-feed-settings.php:192
+msgid ""
+"Could not connect to Google Sheets. Please check your credentials and try "
+"again."
+msgstr ""
+"No se ha podido conectar a Google Sheets. Comprueba tus credenciales e "
+"inténtalo de nuevo."
+
+#: includes/ajax/class-feed-settings.php:187
+msgid ""
+"No Google Sheet columns were matched with form fields. Please manually map "
+"the columns."
+msgstr ""
+"No se han emparejado columnas de Google Sheet con campos de formulario. Por "
+"favor, asigna manualmente las columnas."
+
+#: includes/ajax/class-feed-settings.php:198
+msgid "Incorrect `variant` sent with request."
+msgstr "Se ha enviado una `variante` incorrecta con la solicitud."
+
+#: includes/ajax/class-feed-settings.php:366
+msgid "Feed not found."
+msgstr "Feed no encontrado."
+
+#: includes/class-actions.php:32
+msgid "Entry marked as spam"
+msgstr "Entrada marcada como spam"
+
+#: includes/class-actions.php:135
+msgid "GC Google Sheets Feed Error"
+msgstr "Error de feed de GC Google Sheets"
+
+#: includes/class-actions.php:155
+msgid "Greetings, administrator,"
+msgstr "Saludos, administrador,"
+
+#: includes/class-actions.php:159
+msgid "We recommend:"
+msgstr "Recomendamos:"
+
+#. translators: %s is the URL to the GC Google Sheets settings page.
+#: includes/class-actions.php:163
+msgid ""
+"Checking the <a href=\"%s\">GC Google Sheets settings</a> for any issues."
+msgstr ""
+"Comprueba la <a href=\"%s\">configuración de Google Sheets</a> de GC para "
+"ver si hay algún problema."
+
+#. translators: %s is the URL to the Action Scheduler page.
+#: includes/class-actions.php:168
+msgid "Reviewing recently <a href=\"%s\">failed jobs</a> in Action Scheduler."
+msgstr ""
+"Revisar los <a href=\"%s\">trabajos fallidos</a> recientemente en el "
+"Programador de Acciones."
+
+#: includes/class-actions.php:171
+msgid ""
+"Inspecting the notes for any error messages on recently submitted entries."
+msgstr ""
+"Inspeccionar las notas en busca de mensajes de error en las entradas "
+"enviadas recientemente."
+
+#: includes/class-actions.php:173
+msgid "Best,"
+msgstr "Lo mejor,"
+
+#: includes/class-actions.php:175
+msgid "The Gravity Wiz Team"
+msgstr "El equipo Gravity Wiz"
+
+#: includes/compatibility/class-object-type-google-sheet.php:449
+msgid "Row Hash"
+msgstr "Hash de fila"
+
+#. translators: %d is the spreadsheet ID.
+#: includes/spreadsheets/class-spreadsheet.php:191
+msgid "Unable to find a suitable Google Account for spreadsheet ID #%d."
+msgstr ""
+"No se ha podido encontrar una cuenta de Google adecuada para el ID de hoja "
+"de cálculo #%d."
+
+#: includes/spreadsheets/traits/trait-test-entry-writer.php:169
+msgid "This is a test."
+msgstr "Esto es una prueba."
+
+#: includes/spreadsheets/traits/trait-writer.php:68
+msgid "Unable to write to Google Sheets as row data is empty."
+msgstr ""
+"No se puede escribir en Google Sheets porque los datos de las filas están "
+"vacíos."
+
+#: includes/spreadsheets/traits/trait-writer.php:72
+msgid ""
+"Unable to write to Google Sheets as there are no columns specified for the "
+"request."
+msgstr ""
+"No se puede escribir en Google Sheets porque no hay columnas especificadas "
+"para la solicitud."
+
+#: includes/spreadsheets/traits/trait-writer.php:76
+msgid ""
+"Unable to write to Google Sheets as there are no rows specified for the "
+"request."
+msgstr ""
+"No se puede escribir en Google Sheets porque no hay filas especificadas para "
+"la solicitud."
