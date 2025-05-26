@@ -3,11 +3,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GP Advanced Phone Field\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-"
-"perk-4zLC_fU2pb\n"
-"POT-Creation-Date: 2025-01-15T20:48:19+00:00\n"
-"PO-Revision-Date: 2025-04-30 17:11+0200\n"
-"Last-Translator: Rafael Soler <info@rafaelsoler.es>\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"kYyn05cFQ4\n"
+"POT-Creation-Date: 2025-05-14T15:47:06+00:00\n"
+"PO-Revision-Date: 2025-05-26 23:22+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Domain: gp-advanced-phone-field\n"
 
 #. Plugin Name of the plugin
-#: gp-advanced-phone-field.php class-gp-advanced-phone-field.php:285
+#: gp-advanced-phone-field.php class-gp-advanced-phone-field.php:279
 msgid "GP Advanced Phone Field"
 msgstr "GP Advanced Phone Field"
 
@@ -47,11 +47,11 @@ msgstr "Gravity Wiz"
 msgid "https://gravitywiz.com/"
 msgstr "https://gravitywiz.com"
 
-#: class-gp-advanced-phone-field.php:274
+#: class-gp-advanced-phone-field.php:268
 msgid "Enable Advanced Phone Field"
 msgstr "Activar campo telefónico avanzado"
 
-#: class-gp-advanced-phone-field.php:286
+#: class-gp-advanced-phone-field.php:280
 msgid ""
 "Enable GP Advanced Phone Field for the current field. Adds improved UI and "
 "validation."
@@ -59,50 +59,50 @@ msgstr ""
 "Activa el GP campo telefónico avanzado para el campo actual. Mejora la "
 "interfaz de usuario y la validación."
 
-#: class-gp-advanced-phone-field.php:332
+#: class-gp-advanced-phone-field.php:326
 msgid "Please provide a valid phone number."
 msgstr "Por favor, proporciona un número de teléfono válido."
 
-#: class-gp-advanced-phone-field.php:372
+#: class-gp-advanced-phone-field.php:366
 msgid "Adv Phone Field"
 msgstr "Campo telefónico avanzado"
 
-#: class-gp-advanced-phone-field.php:399
+#: class-gp-advanced-phone-field.php:393
 msgid "Advanced Phone Field"
 msgstr "Campo telefónico avanzado"
 
-#: class-gp-advanced-phone-field.php:403
+#: class-gp-advanced-phone-field.php:397
 msgid "Default Country"
 msgstr "País predeterminado"
 
-#: class-gp-advanced-phone-field.php:404
+#: class-gp-advanced-phone-field.php:398
 msgid ""
 "Select the default country that should be used for the country code selector."
 msgstr ""
 "Selecciona el país por defecto que debe utilizarse para el selector de "
 "código de país."
 
-#: class-gp-advanced-phone-field.php:410
+#: class-gp-advanced-phone-field.php:404
 msgid "Determine by visitor location (GeoIP)"
 msgstr "Determinar por ubicación del visitante (GeoIP)"
 
-#: class-gp-advanced-phone-field.php:417
+#: class-gp-advanced-phone-field.php:411
 msgid "Preferred Countries"
 msgstr "Países preferidos"
 
-#: class-gp-advanced-phone-field.php:426
+#: class-gp-advanced-phone-field.php:420
 msgid "Countries"
 msgstr "Países"
 
-#: class-gp-advanced-phone-field.php:431
+#: class-gp-advanced-phone-field.php:425
 msgid "Include all countries"
 msgstr "Incluir todos los países"
 
-#: class-gp-advanced-phone-field.php:435
+#: class-gp-advanced-phone-field.php:429
 msgid "Only include the following countries..."
 msgstr "Incluye solo los siguientes países..."
 
-#: class-gp-advanced-phone-field.php:437
+#: class-gp-advanced-phone-field.php:431
 msgid ""
 "Only the countries selected below will be available in the country code "
 "selector."
@@ -110,11 +110,11 @@ msgstr ""
 "Solo los países seleccionados a continuación estarán disponibles en el "
 "selector de código de país."
 
-#: class-gp-advanced-phone-field.php:440
+#: class-gp-advanced-phone-field.php:434
 msgid "Exclude the following countries..."
 msgstr "Excluye los siguientes países..."
 
-#: class-gp-advanced-phone-field.php:442
+#: class-gp-advanced-phone-field.php:436
 msgid ""
 "Include all but the selected countries below in the country code selector."
 msgstr ""
@@ -122,36 +122,36 @@ msgstr ""
 "selector de código de país."
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:525
+#: class-gp-advanced-phone-field.php:519
 msgid "%s (Country Dialing Code)"
 msgstr "%s (Código de marcación del país)"
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:531
+#: class-gp-advanced-phone-field.php:525
 msgid "%s (Type)"
 msgstr "%s (Tipo)"
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:536
+#: class-gp-advanced-phone-field.php:530
 msgid "%s (National Number)"
 msgstr "%s (Número nacional)"
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:541
+#: class-gp-advanced-phone-field.php:535
 msgid "%s (Raw)"
 msgstr "%s (Sin procesar)"
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:546
+#: class-gp-advanced-phone-field.php:540
 msgid "%s (Description)"
 msgstr "%s (Descripción)"
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:551
+#: class-gp-advanced-phone-field.php:545
 msgid "%s (Carrier)"
 msgstr "%s (Operador)"
 
 #. translators: placeholder is the label of the field with Advanced Phone Field enabled.
-#: class-gp-advanced-phone-field.php:556
+#: class-gp-advanced-phone-field.php:550
 msgid "%s (Region Code)"
 msgstr "%s (Código de región)"
