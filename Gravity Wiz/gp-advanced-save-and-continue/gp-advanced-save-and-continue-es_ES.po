@@ -4,10 +4,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GP Advanced Save and Continue\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
-"PLqdsHt96l\n"
-"POT-Creation-Date: 2025-04-23T19:25:05+00:00\n"
-"PO-Revision-Date: 2025-04-30 17:28+0200\n"
-"Last-Translator: Rafael Soler <info@rafaelsoler.es>\n"
+"fWnUTxPB7e\n"
+"POT-Creation-Date: 2025-05-14T15:43:21+00:00\n"
+"PO-Revision-Date: 2025-05-26 23:23+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
 "Language-Team: Rafa Soler <info@rafaelsoler.es>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -47,25 +47,25 @@ msgstr "Gravity Wiz"
 msgid "https://gravitywiz.com/"
 msgstr "https://gravitywiz.com"
 
-#: class-gp-advanced-save-and-continue.php:196
+#: class-gp-advanced-save-and-continue.php:190
 msgid "Are you sure you want to delete this draft?"
 msgstr "¿Estás seguro de que quieres borrar este borrador?"
 
-#: class-gp-advanced-save-and-continue.php:527
-#: class-gp-advanced-save-and-continue.php:1071
-#: class-gp-advanced-save-and-continue.php:1097
+#: class-gp-advanced-save-and-continue.php:521
+#: class-gp-advanced-save-and-continue.php:1065
+#: class-gp-advanced-save-and-continue.php:1091
 msgid "Invalid nonce."
 msgstr "Nonce no válido."
 
-#: class-gp-advanced-save-and-continue.php:665
+#: class-gp-advanced-save-and-continue.php:659
 msgid "General Settings"
 msgstr "Ajustes generales"
 
-#: class-gp-advanced-save-and-continue.php:671
+#: class-gp-advanced-save-and-continue.php:665
 msgid "Save and Continue Later"
 msgstr "Guardar y continuar después"
 
-#: class-gp-advanced-save-and-continue.php:672
+#: class-gp-advanced-save-and-continue.php:666
 msgid ""
 "Enable this setting to allow users to save their form progress and continue "
 "it at a later time."
@@ -73,11 +73,11 @@ msgstr ""
 "Activa esta opción para permitir a los usuarios guardar el progreso de su "
 "formulario y continuarlo en otro momento."
 
-#: class-gp-advanced-save-and-continue.php:674
+#: class-gp-advanced-save-and-continue.php:668
 msgid "Enable Save and Continue"
 msgstr "Activar «Guardar y continuar»"
 
-#: class-gp-advanced-save-and-continue.php:683
+#: class-gp-advanced-save-and-continue.php:677
 msgid ""
 "This feature stores potentially private and sensitive data on this server "
 "and protects it with a unique link which is displayed to the user on the "
@@ -99,28 +99,28 @@ msgstr ""
 "desactivar esta opción, las confirmaciones y la notificación se eliminarán "
 "automáticamente y se perderá cualquier modificación."
 
-#: class-gp-advanced-save-and-continue.php:699
+#: class-gp-advanced-save-and-continue.php:693
 msgid "Link Text"
 msgstr "Texto del enlace"
 
-#: class-gp-advanced-save-and-continue.php:701
+#: class-gp-advanced-save-and-continue.php:695
 msgid "Save and Continue Button Text"
 msgstr "Texto del botón «Guardar y continuar»"
 
-#: class-gp-advanced-save-and-continue.php:702
+#: class-gp-advanced-save-and-continue.php:696
 msgid "Customize the text displayed in the \"Save and \"Continue\" button."
 msgstr "Personaliza el texto que aparece en el botón «Guardar y continuar»."
 
-#: class-gp-advanced-save-and-continue.php:717
+#: class-gp-advanced-save-and-continue.php:711
 msgid "Advanced Settings"
 msgstr "Ajustes avanzados"
 
-#: class-gp-advanced-save-and-continue.php:731
-#: class-gp-advanced-save-and-continue.php:733
+#: class-gp-advanced-save-and-continue.php:725
+#: class-gp-advanced-save-and-continue.php:727
 msgid "Enable Auto Save and Load"
 msgstr "Activar Autoguardar y Cargar"
 
-#: class-gp-advanced-save-and-continue.php:734
+#: class-gp-advanced-save-and-continue.php:728
 msgid ""
 "For more granular control, this setting can be filtered to enable/disable <a "
 "href=\"https://gravitywiz.com/documentation/gpasc_should_auto_save/\" "
@@ -135,12 +135,12 @@ msgstr ""
 "gpasc_should_auto_load/\" target=\"blank\" rel=\"noopener noreferrer\">la "
 "autocarga de</a> forma independiente."
 
-#: class-gp-advanced-save-and-continue.php:741
-#: class-gp-advanced-save-and-continue.php:743
+#: class-gp-advanced-save-and-continue.php:735
+#: class-gp-advanced-save-and-continue.php:737
 msgid "Enable Draft Management"
 msgstr "Activar la gestión de borradores"
 
-#: class-gp-advanced-save-and-continue.php:744
+#: class-gp-advanced-save-and-continue.php:738
 msgid ""
 "Enable this setting to allow users to manage their own drafts. Additional "
 "configuration required in the \"Draft Management Settings\" below."
@@ -149,16 +149,16 @@ msgstr ""
 "borradores. Se requiere una configuración adicional en \"Ajustes de la "
 "gestión de borradores\" más abajo."
 
-#: class-gp-advanced-save-and-continue.php:751
+#: class-gp-advanced-save-and-continue.php:745
 msgid "Auto Save and Load Settings"
 msgstr "Ajustes de autoguardado y carga"
 
-#: class-gp-advanced-save-and-continue.php:757
-#: class-gp-advanced-save-and-continue.php:760
+#: class-gp-advanced-save-and-continue.php:751
+#: class-gp-advanced-save-and-continue.php:754
 msgid "Visitor Prompt"
 msgstr "Instrucciones para visitantes"
 
-#: class-gp-advanced-save-and-continue.php:761
+#: class-gp-advanced-save-and-continue.php:755
 msgid ""
 "Unauthenticated users will be prompted via a modal to confirm if their "
 "progress should be saved automatically. The following settings control the "
@@ -168,40 +168,40 @@ msgstr ""
 "confirmen si su progreso debe guardarse automáticamente. Los siguientes "
 "ajustes controlan el contenido de ese modal."
 
-#: class-gp-advanced-save-and-continue.php:765
+#: class-gp-advanced-save-and-continue.php:759
 msgid "Prompt Title"
 msgstr "Título de la instrucción"
 
-#: class-gp-advanced-save-and-continue.php:770
+#: class-gp-advanced-save-and-continue.php:764
 msgid "Visitor Prompt: Title"
 msgstr "Pregunta para el visitante: Título"
 
-#: class-gp-advanced-save-and-continue.php:771
+#: class-gp-advanced-save-and-continue.php:765
 msgid "Customize the prompt title displayed to visitors."
 msgstr "Personaliza el título del aviso que se muestra a los visitantes."
 
-#: class-gp-advanced-save-and-continue.php:775
+#: class-gp-advanced-save-and-continue.php:769
 msgid "Prompt Description"
 msgstr "Pronta Descripción"
 
-#: class-gp-advanced-save-and-continue.php:780
+#: class-gp-advanced-save-and-continue.php:774
 msgid "Visitor Prompt: Description"
 msgstr "Mensaje al Visitante: Descripción"
 
-#: class-gp-advanced-save-and-continue.php:781
+#: class-gp-advanced-save-and-continue.php:775
 msgid "Customize the prompt description displayed to visitors."
 msgstr "Personaliza la descripción del aviso que se muestra a los visitantes."
 
-#: class-gp-advanced-save-and-continue.php:785
+#: class-gp-advanced-save-and-continue.php:779
 msgid "Accept Button Label"
 msgstr "Etiqueta del botón «Aceptar»"
 
-#: class-gp-advanced-save-and-continue.php:790
-#: class-gp-advanced-save-and-continue.php:800
+#: class-gp-advanced-save-and-continue.php:784
+#: class-gp-advanced-save-and-continue.php:794
 msgid "Visitor Prompt: Accept Button Label"
 msgstr "Instrucciones para el visitante: Etiqueta del botón «Aceptar»"
 
-#: class-gp-advanced-save-and-continue.php:791
+#: class-gp-advanced-save-and-continue.php:785
 msgid ""
 "Customize the button label displayed to visitors to accept automatically "
 "saving their progress."
@@ -209,11 +209,11 @@ msgstr ""
 "Personaliza la etiqueta del botón que se muestra a los visitantes para que "
 "acepten guardar automáticamente su progreso."
 
-#: class-gp-advanced-save-and-continue.php:795
+#: class-gp-advanced-save-and-continue.php:789
 msgid "Decline Button Label"
 msgstr "Etiqueta del botón «Rechazar»"
 
-#: class-gp-advanced-save-and-continue.php:801
+#: class-gp-advanced-save-and-continue.php:795
 msgid ""
 "Customize the button label displayed to visitors to decline automatically "
 "saving their progress."
@@ -221,24 +221,24 @@ msgstr ""
 "Personaliza la etiqueta del botón que se muestra a los visitantes para que "
 "rechacen guardar automáticamente su progreso."
 
-#: class-gp-advanced-save-and-continue.php:807
-#: class-gp-advanced-save-and-continue.php:812
+#: class-gp-advanced-save-and-continue.php:801
+#: class-gp-advanced-save-and-continue.php:806
 msgid "Disable Sharing Drafts"
 msgstr "Desactivar compartir borradores"
 
-#: class-gp-advanced-save-and-continue.php:813
+#: class-gp-advanced-save-and-continue.php:807
 msgid "Enable this setting to disable sharing drafts between users."
 msgstr "Activa esta opción para no compartir borradores entre usuarios."
 
-#: class-gp-advanced-save-and-continue.php:818
+#: class-gp-advanced-save-and-continue.php:812
 msgid "Hide Save and Continue Link"
 msgstr "Ocultar enlace «Guardar y continuar»"
 
-#: class-gp-advanced-save-and-continue.php:823
+#: class-gp-advanced-save-and-continue.php:817
 msgid "Save and Continue Link"
 msgstr "Enlace «Guardar y continuar»"
 
-#: class-gp-advanced-save-and-continue.php:824
+#: class-gp-advanced-save-and-continue.php:818
 msgid ""
 "Enable this setting to hide the Save and Continue link displayed in the form "
 "footer. This allows you to rely exclusively on automatic save-and-continue."
@@ -247,15 +247,15 @@ msgstr ""
 "en el pie de página del formulario. Esto te permite confiar exclusivamente "
 "en el «Guardar y continuar» automático."
 
-#: class-gp-advanced-save-and-continue.php:830
+#: class-gp-advanced-save-and-continue.php:824
 msgid "Display Save and Continue Confirmation Inline"
 msgstr "Mostrar confirmación de «Guardar y continuar» en línea"
 
-#: class-gp-advanced-save-and-continue.php:833
+#: class-gp-advanced-save-and-continue.php:827
 msgid "Inline Confirmation"
 msgstr "Confirmación en línea"
 
-#: class-gp-advanced-save-and-continue.php:834
+#: class-gp-advanced-save-and-continue.php:828
 msgid ""
 "Enable this setting to display the Save and Continue confirmation inline "
 "rather than on a new page."
@@ -263,20 +263,20 @@ msgstr ""
 "Activa esta opción para mostrar la confirmación de «Guardar y continuar» en "
 "línea en lugar de en una página nueva."
 
-#: class-gp-advanced-save-and-continue.php:862
+#: class-gp-advanced-save-and-continue.php:856
 msgid "Draft Management Settings"
 msgstr "Ajustes de la gestión de borradores"
 
-#: class-gp-advanced-save-and-continue.php:865
+#: class-gp-advanced-save-and-continue.php:859
 msgid "Display Available Drafts Above Form"
 msgstr "Mostrar borradores disponibles encima del formulario"
 
-#: class-gp-advanced-save-and-continue.php:870
-#: class-gp-advanced-save-and-continue.php:880
+#: class-gp-advanced-save-and-continue.php:864
+#: class-gp-advanced-save-and-continue.php:874
 msgid "Display Drafts Above Form"
 msgstr "Mostrar borradores encima del formulario"
 
-#: class-gp-advanced-save-and-continue.php:871
+#: class-gp-advanced-save-and-continue.php:865
 msgid ""
 "Display a list of a user's Save and Continue drafts above the form. If there "
 "are no drafts, nothing will be displayed."
@@ -284,11 +284,11 @@ msgstr ""
 "Mostrar una lista de los borradores de «Guardar y continuar» de un usuario "
 "encima del formulario. Si no hay borradores, no se mostrará nada."
 
-#: class-gp-advanced-save-and-continue.php:875
+#: class-gp-advanced-save-and-continue.php:869
 msgid "Shortcode"
 msgstr "Shortcode"
 
-#: class-gp-advanced-save-and-continue.php:881
+#: class-gp-advanced-save-and-continue.php:875
 msgid ""
 "Display a list of the current user's Save and Continue drafts above the "
 "form. If there are no drafts, nothing will be displayed."
@@ -296,7 +296,7 @@ msgstr ""
 "Muestra una lista de los borradores de «Guardar y continuar» del usuario "
 "actual encima del formulario. Si no hay borradores, no se mostrará nada."
 
-#: class-gp-advanced-save-and-continue.php:923
+#: class-gp-advanced-save-and-continue.php:917
 msgid ""
 "All Save and Continue settings are managed via the Save and Continue page "
 "when the <b>GP Advanced Save and Continue</b> plugin is active."
@@ -305,25 +305,25 @@ msgstr ""
 "página «Guardar y continuar» cuando el plugin <b>GP Advanced Save and "
 "Continue</b> está activo."
 
-#: class-gp-advanced-save-and-continue.php:924
+#: class-gp-advanced-save-and-continue.php:918
 msgid "Manage Save and Continue"
 msgstr "Gestionar «Guardar y continuar»"
 
-#: class-gp-advanced-save-and-continue.php:1227
+#: class-gp-advanced-save-and-continue.php:1221
 msgid "Drafts"
 msgstr "Borradores"
 
 #. translators: placeholder is a draft name
-#: class-gp-advanced-save-and-continue.php:1439
+#: class-gp-advanced-save-and-continue.php:1433
 msgid "You are resuming your draft \"%s\"."
 msgstr "Reanudas tu borrador \"%s\"."
 
-#: class-gp-advanced-save-and-continue.php:1459
-#: class-gp-advanced-save-and-continue.php:1472
+#: class-gp-advanced-save-and-continue.php:1453
+#: class-gp-advanced-save-and-continue.php:1466
 msgid "Start new draft"
 msgstr "Iniciar nuevo borrador"
 
-#: class-gp-advanced-save-and-continue.php:1490
+#: class-gp-advanced-save-and-continue.php:1484
 msgid "Copy Shortcode"
 msgstr "Copiar el shortcode"
 
