@@ -4,10 +4,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GC Google Sheets\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-"
-"perk-0d8F-6YbAO\n"
-"POT-Creation-Date: 2025-04-23T19:24:00+00:00\n"
-"PO-Revision-Date: 2025-04-30 16:40+0200\n"
-"Last-Translator: Rafael Soler <info@rafaelsoler.es>\n"
+"perk-99dJmdQE1D\n"
+"POT-Creation-Date: 2025-05-14T15:47:36+00:00\n"
+"PO-Revision-Date: 2025-05-26 23:17+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
 "Language-Team: Rafa Soler <info@rafaelsoler.es>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -128,11 +128,11 @@ msgstr "Configuración de Google Sheets"
 msgid "Column Mapping"
 msgstr "Asignación de columnas"
 
-#: class-gc-google-sheets.php:1168 includes/ajax/class-feed-settings.php:329
+#: class-gc-google-sheets.php:1168 includes/ajax/class-feed-settings.php:331
 msgid "Sheet Column"
 msgstr "Columna de hoja"
 
-#: class-gc-google-sheets.php:1169 includes/ajax/class-feed-settings.php:330
+#: class-gc-google-sheets.php:1169 includes/ajax/class-feed-settings.php:332
 msgid "Column heading"
 msgstr "Cabecera de columna"
 
@@ -169,32 +169,32 @@ msgid "Conditional Logic"
 msgstr "Lógica condicional"
 
 #. translators: %s is an error message.
-#: class-gc-google-sheets.php:1674
+#: class-gc-google-sheets.php:1681
 msgid "Failed to update sheet columns. Error: %s"
 msgstr "Error al actualizar las columnas de la hoja. Error: %s"
 
-#: class-gc-google-sheets.php:1746 class-gc-google-sheets.php:1747
+#: class-gc-google-sheets.php:1761 class-gc-google-sheets.php:1762
 msgid "M j, Y \\a\\t g:ia"
 msgstr "M j, Y \\a\\t g:ia"
 
-#: class-gc-google-sheets.php:1768
+#: class-gc-google-sheets.php:1783
 msgid "To reprocess this feed, please reauthenticate with Google Sheets."
 msgstr ""
 "Para volver a procesar este feed, vuelve a autenticarte con Google Sheets."
 
-#: class-gc-google-sheets.php:1781
+#: class-gc-google-sheets.php:1796
 msgid "Add Row"
 msgstr "Añadir fila"
 
-#: class-gc-google-sheets.php:1782
+#: class-gc-google-sheets.php:1797
 msgid "Update Row"
 msgstr "Actualizar fila"
 
-#: class-gc-google-sheets.php:1783
+#: class-gc-google-sheets.php:1798
 msgid "Delete Row"
 msgstr "Borrar fila"
 
-#: class-gc-google-sheets.php:1789
+#: class-gc-google-sheets.php:1804
 msgid "View Spreadsheet"
 msgstr "Ver hoja de cálculo"
 
@@ -243,7 +243,7 @@ msgstr ""
 msgid "Form ID not provided."
 msgstr "No se proporciona el ID del formulario."
 
-#: includes/ajax/class-feed-settings.php:72
+#: includes/ajax/class-feed-settings.php:74
 msgid ""
 "There was an error inserting a test row. Double check that you have "
 "permissions to use GC Google Sheets and try again."
@@ -251,16 +251,16 @@ msgstr ""
 "Se ha producido un error al insertar una fila de prueba. Comprueba que "
 "tienes permisos para utilizar GC Google Sheets e inténtalo de nuevo."
 
-#: includes/ajax/class-feed-settings.php:79
+#: includes/ajax/class-feed-settings.php:81
 msgid "Test row insertion failed. Parameters not provided."
 msgstr ""
 "Falló la inserción de la fila de prueba. No se han proporcionado parámetros."
 
-#: includes/ajax/class-feed-settings.php:83
+#: includes/ajax/class-feed-settings.php:85
 msgid "Test row insertion failed."
 msgstr "Falló la inserción de la fila de prueba."
 
-#: includes/ajax/class-feed-settings.php:94
+#: includes/ajax/class-feed-settings.php:96
 msgid ""
 "Could not connect to Google Sheets. Please check your Google Accounts and "
 "try again."
@@ -268,12 +268,12 @@ msgstr ""
 "No se ha podido conectar a Google Sheets. Comprueba tus cuentas de Google e "
 "inténtalo de nuevo."
 
-#: includes/ajax/class-feed-settings.php:102
+#: includes/ajax/class-feed-settings.php:104
 msgid " Choose at least one field to send in the Column Mapping section."
 msgstr ""
 " Elige al menos un campo para enviar en la sección «Asignación de columnas»."
 
-#: includes/ajax/class-feed-settings.php:127
+#: includes/ajax/class-feed-settings.php:129
 msgid ""
 "There was an error accessing the sheet. Double check that you have "
 "permissions to use GC Google Sheets and try again."
@@ -281,8 +281,8 @@ msgstr ""
 "Se ha producido un error al acceder a la hoja. Comprueba que tienes permisos "
 "para utilizar GC Google Sheets e inténtalo de nuevo."
 
-#: includes/ajax/class-feed-settings.php:151
-#: includes/ajax/class-feed-settings.php:192
+#: includes/ajax/class-feed-settings.php:153
+#: includes/ajax/class-feed-settings.php:194
 msgid ""
 "Could not connect to Google Sheets. Please check your credentials and try "
 "again."
@@ -290,7 +290,7 @@ msgstr ""
 "No se ha podido conectar a Google Sheets. Comprueba tus credenciales e "
 "inténtalo de nuevo."
 
-#: includes/ajax/class-feed-settings.php:187
+#: includes/ajax/class-feed-settings.php:189
 msgid ""
 "No Google Sheet columns were matched with form fields. Please manually map "
 "the columns."
@@ -298,11 +298,11 @@ msgstr ""
 "No se han emparejado columnas de Google Sheet con campos de formulario. Por "
 "favor, asigna manualmente las columnas."
 
-#: includes/ajax/class-feed-settings.php:198
+#: includes/ajax/class-feed-settings.php:200
 msgid "Incorrect `variant` sent with request."
 msgstr "Se ha enviado una `variante` incorrecta con la solicitud."
 
-#: includes/ajax/class-feed-settings.php:366
+#: includes/ajax/class-feed-settings.php:368
 msgid "Feed not found."
 msgstr "Feed no encontrado."
 
