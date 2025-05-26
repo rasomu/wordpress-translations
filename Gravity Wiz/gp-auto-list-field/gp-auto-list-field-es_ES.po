@@ -1,0 +1,78 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Auto List Field 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"KxXhXnbHmv\n"
+"POT-Creation-Date: 2025-05-07T17:29:22+00:00\n"
+"PO-Revision-Date: 2025-05-26 23:31+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-auto-list-field\n"
+
+#. Plugin Name of the plugin
+#: gp-auto-list-field.php
+msgid "GP Auto List Field"
+msgstr "GP Auto List Field"
+
+#. Plugin URI of the plugin
+#: gp-auto-list-field.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-auto-list-field/"
+msgstr "https://gravitywiz.com/documentation/gravity-forms-auto-list-field/"
+
+#. Description of the plugin
+#: gp-auto-list-field.php
+msgid ""
+"Automatically set the number of rows in a List field by the value of another "
+"field - or - capture the number of List field rows."
+msgstr ""
+"Establecer automáticamente las filas de un campo de lista utilizando el "
+"valor de otro campo - o - capturar el número de filas del campo lista."
+
+#. Author of the plugin
+#: gp-auto-list-field.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-auto-list-field.php
+msgid "https://gravitywiz.com/"
+msgstr "https://gravitywiz.com"
+
+#: class-gp-auto-list-field.php:70 class-gp-auto-list-field.php:291
+msgid "Enable Auto List Field"
+msgstr "Activar campo de lista automática"
+
+#: class-gp-auto-list-field.php:70
+msgid ""
+"Automatically set the number of rows for this List field by the value "
+"entered into another field."
+msgstr ""
+"Establecer automáticamente el número de filas de este campo de lista según "
+"el valor introducido en otro campo."
+
+#: class-gp-auto-list-field.php:71 class-gp-auto-list-field.php:296
+msgid "Trigger Field"
+msgstr "Campo de activación"
+
+#: class-gp-auto-list-field.php:71
+msgid ""
+"Specify which field's value should automatically set the number of rows for "
+"this List field."
+msgstr ""
+"Especifica qué valor de campo debe establecer automáticamente el número de "
+"filas de este campo de lista."
+
+#: class-gp-auto-list-field.php:270
+msgid "(Count)"
+msgstr "(Cuenta)"
+
+#: class-gp-auto-list-field.php:298
+msgid "Select a Field"
+msgstr "Selecciona un campo"
