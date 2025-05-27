@@ -1,0 +1,54 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Conditional Pricing 2.0.15\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"X8znPcM7qG\n"
+"POT-Creation-Date: 2025-03-27T20:05:29+00:00\n"
+"PO-Revision-Date: 2025-05-27 17:33+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-conditional-pricing\n"
+
+#. Plugin Name of the plugin
+#: gwconditionalpricing.php
+msgid "GP Conditional Pricing"
+msgstr "GP Conditional Pricing"
+
+#. Plugin URI of the plugin
+#: gwconditionalpricing.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-conditional-pricing/"
+msgstr ""
+"https://gravitywiz.com/documentation/gravity-forms-conditional-pricing/"
+
+#. Description of the plugin
+#: gwconditionalpricing.php
+msgid ""
+"Create flexible, conditional pricing for your Gravity Form product fields."
+msgstr ""
+"Crea precios flexibles y condicionales para los campos de producto de tu "
+"Gravity Form."
+
+#. Author of the plugin
+#: gwconditionalpricing.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gwconditionalpricing.php
+msgid "http://gravitywiz.com/"
+msgstr "https://gravitywiz.com/"
+
+#: class-gp-conditional-pricing.php:102
+msgid "Conditional Pricing"
+msgstr "Precios condicionales"
+
+#: class-gp-conditional-pricing.php:610
+msgid "There was an error calculating the price for this field."
+msgstr "Se ha producido un error al calcular el precio de este campo."
