@@ -1,0 +1,608 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Email Validator 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-"
+"perk-0xWArpK0-R\n"
+"POT-Creation-Date: 2025-01-29T18:21:56+00:00\n"
+"PO-Revision-Date: 2025-05-27 20:05+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-email-validator\n"
+
+#. Plugin Name of the plugin
+#: gp-email-validator.php class-gp-email-validator.php:323
+msgid "GP Email Validator"
+msgstr "GP Email Validator"
+
+#. Plugin URI of the plugin
+#: gp-email-validator.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-email-validator/"
+msgstr "https://gravitywiz.com/documentation/gravity-forms-email-validator/"
+
+#. Description of the plugin
+#: gp-email-validator.php
+msgid ""
+"Level up your Email fields with automatic email address and domain "
+"validation."
+msgstr ""
+"Mejora tus campos de correo electrónico con la validación automática de la "
+"dirección de correo y el dominio."
+
+#. Author of the plugin
+#: gp-email-validator.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-email-validator.php
+msgid "https://gravitywiz.com/"
+msgstr "https://gravitywiz.com"
+
+#: class-gp-email-validator.php:152
+msgid "Did you mean "
+msgstr "¿Querías decir"
+
+#: class-gp-email-validator.php:284
+msgid "Enable Email Validator"
+msgstr "Activar el validador de correo electrónico"
+
+#: class-gp-email-validator.php:324
+msgid "Toggle GP Email Validator for the current field."
+msgstr "Activa el GP Email Validator para el campo actual."
+
+#: class-gp-email-validator.php:360
+msgid ""
+"Email Validator is automatically enabled on all Email fields by default. You "
+"can disable per field via the 'Enable Email Validator' field setting."
+msgstr ""
+"El validador de correo electrónico se activa por defecto automáticamente en "
+"todos los campos de correo electrónico. Puedes desactivarlo por campo "
+"mediante el ajuste de campo \"Activar validador de correo electrónico\"."
+
+#: class-gp-email-validator.php:364
+msgid ""
+"Choose which validation service to use. Basic provides syntax and DNS "
+"validation, while Kickbox and ZeroBounce offer advanced validation through "
+"their APIs."
+msgstr ""
+"Elige qué servicio de validación utilizar. Basic proporciona validación de "
+"sintaxis y DNS, mientras que Kickbox y ZeroBounce ofrecen validación "
+"avanzada a través de sus API."
+
+#: class-gp-email-validator.php:365
+msgid "Validator Service"
+msgstr "Servicio de validación"
+
+#: class-gp-email-validator.php:372
+msgid "Basic"
+msgstr "Básico"
+
+#: class-gp-email-validator.php:376
+msgid "Kickbox"
+msgstr "Kickbox"
+
+#: class-gp-email-validator.php:380
+msgid "ZeroBounce"
+msgstr "ZeroBounce"
+
+#: class-gp-email-validator.php:414
+msgid "Email Validator"
+msgstr "Validador de correo electrónico"
+
+#: class-gp-email-validator.php:418
+msgid "Domain Validator"
+msgstr "Validador de dominio"
+
+#: class-gp-email-validator.php:423
+msgid ""
+"Choose how to handle specific email domains. \"Allow\" mode only accepts "
+"emails from listed domains, while \"Block\" mode rejects emails from listed "
+"domains. \"None\" disables domain validation."
+msgstr ""
+"Elige cómo gestionar determinados dominios de correo electrónico. El modo "
+"\"Permitir\" sólo acepta correos electrónicos de los dominios de la lista, "
+"mientras que el modo \"Bloquear\" rechaza los correos electrónicos de los "
+"dominios de la lista. \"Ninguno\" desactiva la validación de dominios."
+
+#: class-gp-email-validator.php:424
+msgid "Domain Validator Mode"
+msgstr "Modo de validador de dominios"
+
+#: class-gp-email-validator.php:431
+msgid "None"
+msgstr "Ninguna"
+
+#: class-gp-email-validator.php:435
+msgid "Allow"
+msgstr "Permitir"
+
+#: class-gp-email-validator.php:439
+msgid "Block"
+msgstr "Bloque"
+
+#: class-gp-email-validator.php:445 class-gp-email-validator.php:460
+msgid "Email Domains"
+msgstr "Dominios de correo electrónico"
+
+#: class-gp-email-validator.php:447
+msgid ""
+"Enter one domain per line. Only email addresses from these domains will be "
+"accepted. Example: company.com, .org"
+msgstr ""
+"Introduce un dominio por línea. Sólo se aceptarán las direcciones de correo "
+"electrónico de estos dominios. Ejemplo: empresa.com, .org"
+
+#: class-gp-email-validator.php:462
+msgid ""
+"Enter one domain per line. Email addresses from these domains will be "
+"rejected. Example: disposable-email.com, .ru"
+msgstr ""
+"Introduce un dominio por línea. Las direcciones de correo electrónico de "
+"estos dominios serán rechazadas. Ejemplo: correo-desechable.com, .ru"
+
+#: includes/results/class-domain-validation-result.php:28
+msgid "Email domain is not allowed."
+msgstr "El dominio de correo electrónico no está permitido."
+
+#: includes/results/class-error-validation-result.php:26
+msgid "Unknown error occurred."
+msgstr "Ha ocurrido un error desconocido."
+
+#: includes/results/class-validation-result.php:263
+msgid "Email validation failed."
+msgstr "Ha fallado la validación del correo electrónico."
+
+#. translators: %s is the suggested email address
+#: includes/results/class-validation-result.php:279
+msgid "Did you mean %s?"
+msgstr "¿Quisiste decir %s?"
+
+#: includes/validators/class-abstract-validator.php:198
+msgid ""
+"The email address entered cannot be used. Please enter a different email "
+"address."
+msgstr ""
+"No se puede utilizar la dirección de correo electrónico introducida. "
+"Introduce otra dirección de correo electrónico."
+
+#. translators: placeholder is an error message only visible to user that can edit forms
+#: includes/validators/class-abstract-validator.php:201
+msgid "Only Visible to Form Editors: %s"
+msgstr "Sólo visible para los editores de formularios: %s"
+
+#. translators: %1$s is the field label, %2$s is the validator service name
+#: includes/validators/class-abstract-validator.php:277
+msgid "%1$s (%2$s Result)"
+msgstr "%1$s (%2$s Resultado)"
+
+#. translators: %s is a comma-separated list of allowed domains
+#: includes/validators/class-abstract-validator.php:599
+msgid "Only emails from the following domains are allowed: %s"
+msgstr "Sólo se permiten correos electrónicos de los siguientes dominios: %s"
+
+#. translators: %s is a comma-separated list of blocked domains
+#: includes/validators/class-abstract-validator.php:634
+msgid "Emails from the following domains are not allowed: %s"
+msgstr "No se permiten correos electrónicos de los siguientes dominios: %s"
+
+#: includes/validators/class-basic-validator.php:115
+msgid "Email address format is invalid."
+msgstr "El formato de la dirección de correo electrónico no es válido."
+
+#: includes/validators/class-basic-validator.php:116
+msgid "Email domain does not have a valid MX record."
+msgstr "El dominio de correo electrónico no tiene un registro MX válido."
+
+#: includes/validators/class-basic-validator.php:117
+msgid "Disposable email addresses are not allowed."
+msgstr "No se permiten direcciones de correo electrónico desechables."
+
+#: includes/validators/class-basic-validator.php:118
+msgid "Free email accounts are not allowed."
+msgstr "No se permiten cuentas de correo electrónico gratuitas."
+
+#: includes/validators/class-basic-validator.php:162
+#: includes/validators/class-basic-validator.php:163
+msgid "Validator Rules"
+msgstr "Reglas del Validador"
+
+#: includes/validators/class-basic-validator.php:170
+msgid "Use default rules"
+msgstr "Utilizar reglas por defecto"
+
+#: includes/validators/class-basic-validator.php:174
+msgid "Use custom rules"
+msgstr "Utilizar reglas personalizadas"
+
+#: includes/validators/class-basic-validator.php:184
+msgid "Require configured MX record"
+msgstr "Requiere registro MX configurado"
+
+#: includes/validators/class-basic-validator.php:185
+msgid "Checks if the email domain has valid MX records configured."
+msgstr ""
+"Comprueba si el dominio de correo electrónico tiene configurados registros "
+"MX válidos."
+
+#: includes/validators/class-basic-validator.php:190
+msgid "Block disposable emails"
+msgstr "Bloquear correos electrónicos desechables"
+
+#: includes/validators/class-basic-validator.php:191
+msgid "Prevents temporary or disposable email addresses from being used."
+msgstr ""
+"Evita que se utilicen direcciones de correo electrónico temporales o "
+"desechables."
+
+#: includes/validators/class-basic-validator.php:196
+msgid "Block free email accounts"
+msgstr "Bloquear cuentas de correo gratuitas"
+
+#: includes/validators/class-basic-validator.php:197
+msgid "Prevents free email services (like Gmail, Yahoo, etc.) from being used."
+msgstr ""
+"Evita que se utilicen servicios de correo electrónico gratuitos (como Gmail, "
+"Yahoo, etc.)."
+
+#: includes/validators/class-basic-validator.php:201
+msgid "Sanitize Gmail email addresses that use the \"plus trick\"."
+msgstr ""
+"Sanitiza las direcciones de correo electrónico de Gmail que utilicen el "
+"«truco del +»."
+
+#: includes/validators/class-basic-validator.php:202
+msgid ""
+"Removes the plus part from Gmail addresses (e.g., user+tag@gmail.com → "
+"user@gmail.com)."
+msgstr ""
+"Elimina la parte del «+» más de las direcciones de Gmail (por ejemplo, "
+"usuario+etiqueta@gmail.com → user@gmail.com)."
+
+#: includes/validators/class-kickbox-validator.php:43
+msgid "Email address has invalid syntax."
+msgstr "La dirección de correo electrónico tiene una sintaxis no válida."
+
+#: includes/validators/class-kickbox-validator.php:44
+msgid "Domain does not exist."
+msgstr "El dominio no existe."
+
+#: includes/validators/class-kickbox-validator.php:45
+msgid "Email address was rejected by the mail server and does not exist."
+msgstr ""
+"La dirección de correo electrónico ha sido rechazada por el servidor de "
+"correo y no existe."
+
+#: includes/validators/class-kickbox-validator.php:46
+msgid "Email address has quality issues that may make it risky or low-value."
+msgstr ""
+"La dirección de correo electrónico tiene problemas de calidad que pueden "
+"hacerla arriesgada o de poco valor."
+
+#: includes/validators/class-kickbox-validator.php:47
+msgid "Email address appears deliverable, but delivery cannot be guaranteed."
+msgstr ""
+"La dirección de correo electrónico parece entregable, pero no se puede "
+"garantizar la entrega."
+
+#: includes/validators/class-kickbox-validator.php:48
+msgid "Could not connect to mail server."
+msgstr "No se ha podido conectar con el servidor de correo."
+
+#: includes/validators/class-kickbox-validator.php:49
+msgid "Mail server connection timed out."
+msgstr "Se ha agotado el tiempo de conexión al servidor de correo."
+
+#: includes/validators/class-kickbox-validator.php:50
+msgid "Mail server returned an unexpected response."
+msgstr "El servidor de correo ha devuelto una respuesta inesperada."
+
+#: includes/validators/class-kickbox-validator.php:51
+msgid "Mail server was unavailable to process the request."
+msgstr "El servidor de correo no estaba disponible para procesar la solicitud."
+
+#: includes/validators/class-kickbox-validator.php:52
+msgid "An unexpected error occurred during validation."
+msgstr "Se ha producido un error inesperado durante la validación."
+
+#: includes/validators/class-kickbox-validator.php:79
+msgid "Choose between live and sandbox mode. Use sandbox for testing."
+msgstr ""
+"Elige entre modo «en vivo» y modo «sandbox». Utiliza el modo «sandbox» para "
+"las pruebas."
+
+#: includes/validators/class-kickbox-validator.php:80
+#: includes/validators/class-zerobounce-validator.php:161
+msgid "Mode"
+msgstr "Modo"
+
+#: includes/validators/class-kickbox-validator.php:87
+#: includes/validators/class-zerobounce-validator.php:168
+msgid "Live"
+msgstr "En vivo"
+
+#: includes/validators/class-kickbox-validator.php:91
+#: includes/validators/class-zerobounce-validator.php:172
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: includes/validators/class-kickbox-validator.php:97
+#: includes/validators/class-zerobounce-validator.php:178
+msgid "Rejection Criteria"
+msgstr "Criterios de rechazo"
+
+#: includes/validators/class-kickbox-validator.php:98
+msgid "Select which Kickbox results should cause the email to be rejected."
+msgstr ""
+"Selecciona qué resultados de Kickbox deben hacer que se rechace el correo "
+"electrónico."
+
+#: includes/validators/class-kickbox-validator.php:103
+msgid "Risky"
+msgstr "Arriesgado"
+
+#: includes/validators/class-kickbox-validator.php:104
+msgid ""
+"Addresses with quality issues like Accept-All domains, disposable emails, or "
+"role addresses."
+msgstr ""
+"Direcciones con problemas de calidad, como dominios Accept-All, correos "
+"electrónicos desechables o direcciones de rol."
+
+#: includes/validators/class-kickbox-validator.php:108
+#: includes/validators/class-zerobounce-validator.php:189
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: includes/validators/class-kickbox-validator.php:109
+msgid "Addresses that could not be verified due to temporary server issues."
+msgstr ""
+"Direcciones que no se han podido verificar por problemas temporales del "
+"servidor."
+
+#: includes/validators/class-kickbox-validator.php:113
+msgid "Undeliverable"
+msgstr "No entregable"
+
+#: includes/validators/class-kickbox-validator.php:114
+msgid "Addresses that do not exist or cannot receive mail."
+msgstr "Direcciones que no existen o no pueden recibir correo."
+
+#: includes/validators/class-kickbox-validator.php:121
+msgid "Email Suggestions"
+msgstr "Sugerencias de correo electrónico"
+
+#: includes/validators/class-kickbox-validator.php:126
+msgid "Show \"Did you mean?\" suggestions for misspelled emails"
+msgstr "Mostrar sugerencias «¿Querías decir?» para correos mal escritos"
+
+#: includes/validators/class-kickbox-validator.php:127
+msgid ""
+"Suggests corrections for common typos (e.g., user@gamil.com → "
+"user@gmail.com)."
+msgstr ""
+"Sugerir correcciones de erratas comunes (por ejemplo, user@gamil.com → "
+"user@gmail.com)."
+
+#: includes/validators/class-kickbox-validator.php:133
+msgid "API key for live mode from your Kickbox account."
+msgstr "Clave API para el modo en directo desde tu cuenta de Kickbox."
+
+#: includes/validators/class-kickbox-validator.php:134
+msgid "Live API Key"
+msgstr "Clave API en vivo"
+
+#: includes/validators/class-kickbox-validator.php:149
+msgid "API key for sandbox testing from your Kickbox account."
+msgstr "Clave API para pruebas «sandbox» desde tu cuenta Kickbox."
+
+#: includes/validators/class-kickbox-validator.php:150
+msgid "Test API Key"
+msgstr "Clave API de prueba"
+
+#: includes/validators/class-kickbox-validator.php:178
+#: includes/validators/class-zerobounce-validator.php:251
+msgid "API key not configured."
+msgstr "Clave API no configurada."
+
+#: includes/validators/class-kickbox-validator.php:201
+msgid "Invalid response from Kickbox API"
+msgstr "Respuesta no válida de la API de Kickbox"
+
+#: includes/validators/class-zerobounce-validator.php:94
+msgid "Email address is invalid."
+msgstr "Dirección de correo electrónico no válida."
+
+#: includes/validators/class-zerobounce-validator.php:95
+msgid "Domain appears to accept all email addresses."
+msgstr "El dominio parece aceptar todas las direcciones de correo electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:96
+msgid "Email address could not be verified."
+msgstr "No se ha podido verificar la dirección de correo electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:97
+msgid "Email address is a known spam trap."
+msgstr "La dirección de correo electrónico es una conocida trampa de spam."
+
+#: includes/validators/class-zerobounce-validator.php:98
+msgid "Email address is associated with abuse."
+msgstr "La dirección de correo electrónico está asociada a un abuso."
+
+#: includes/validators/class-zerobounce-validator.php:99
+msgid "Email address should not be mailed to."
+msgstr "La dirección de correo electrónico no debe enviarse a"
+
+#: includes/validators/class-zerobounce-validator.php:110
+msgid "Alternate email found."
+msgstr "Correo electrónico alternativo encontrado."
+
+#: includes/validators/class-zerobounce-validator.php:111
+msgid "Email blocked by anti-spam system."
+msgstr "Correo electrónico bloqueado por el sistema antispam."
+
+#: includes/validators/class-zerobounce-validator.php:112
+msgid "Email temporarily greylisted."
+msgstr "Correo electrónico en la lista gris temporalmente."
+
+#: includes/validators/class-zerobounce-validator.php:113
+msgid "Temporary mail server error."
+msgstr "Error temporal del servidor de correo."
+
+#: includes/validators/class-zerobounce-validator.php:114
+msgid "Mail server forcibly disconnected."
+msgstr "Servidor de correo desconectado a la fuerza."
+
+#: includes/validators/class-zerobounce-validator.php:115
+msgid "Mail server did not respond."
+msgstr "El servidor de correo no respondió."
+
+#: includes/validators/class-zerobounce-validator.php:116
+msgid "Connection timeout exceeded."
+msgstr "Se ha superado el tiempo de espera de la conexión."
+
+#: includes/validators/class-zerobounce-validator.php:117
+msgid "SMTP connection failed."
+msgstr "Ha fallado la conexión SMTP."
+
+#: includes/validators/class-zerobounce-validator.php:118
+msgid "Mailbox quota exceeded."
+msgstr "Se ha superado la cuota del buzón."
+
+#: includes/validators/class-zerobounce-validator.php:119
+msgid "Exception occurred during validation."
+msgstr "Se ha producido una excepción durante la validación."
+
+#: includes/validators/class-zerobounce-validator.php:120
+msgid "Possible spam trap detected."
+msgstr "Posible trampa de spam detectada."
+
+#: includes/validators/class-zerobounce-validator.php:121
+msgid "Role-based email address."
+msgstr "Dirección de correo electrónico basada en roles."
+
+#: includes/validators/class-zerobounce-validator.php:122
+msgid "Email globally suppressed."
+msgstr "Correo electrónico suprimido globalmente."
+
+#: includes/validators/class-zerobounce-validator.php:123
+msgid "Mailbox not found."
+msgstr "Buzón no encontrado."
+
+#: includes/validators/class-zerobounce-validator.php:124
+msgid "No DNS entries found."
+msgstr "No se han encontrado entradas DNS."
+
+#: includes/validators/class-zerobounce-validator.php:125
+msgid "Email syntax check failed."
+msgstr "Error en la comprobación de la sintaxis del correo electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:126
+msgid "Possible typo in email address."
+msgstr "Posible errata en la dirección de correo electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:127
+msgid "Unroutable IP address."
+msgstr "Dirección IP no enrutable."
+
+#: includes/validators/class-zerobounce-validator.php:128
+msgid "Leading period removed."
+msgstr "  Se ha eliminado el periodo de retención."
+
+#: includes/validators/class-zerobounce-validator.php:129
+msgid "Domain does not accept mail."
+msgstr "El dominio no acepta correo."
+
+#: includes/validators/class-zerobounce-validator.php:130
+msgid "Alias email address."
+msgstr "Alias de correo electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:131
+msgid "Role-based catch-all address."
+msgstr "Dirección de recepción de cualquier correo basada en roles."
+
+#: includes/validators/class-zerobounce-validator.php:132
+msgid "Disposable email address."
+msgstr "Dirección de correo electrónico desechable."
+
+#: includes/validators/class-zerobounce-validator.php:133
+msgid "Known toxic email pattern."
+msgstr "Patrón conocido de correo electrónico tóxico."
+
+#: includes/validators/class-zerobounce-validator.php:160
+msgid ""
+"Choose between live and sandbox mode. Use sandbox for testing which locks "
+"the list of emails that can be submitted to the defined sandbox emails "
+"provided by ZeroBounce."
+msgstr ""
+"Elige entre modo «en vivo» y modo «sandbox». Utiliza «sandbox» para pruebas, "
+"que bloquea la lista de correos electrónicos que pueden enviarse a los "
+"correos electrónicos definidos en «sandbox» proporcionados por ZeroBounce."
+
+#: includes/validators/class-zerobounce-validator.php:179
+msgid "Select which ZeroBounce results should cause the email to be rejected."
+msgstr ""
+"Selecciona qué resultados de ZeroBounce deben hacer que se rechace el correo "
+"electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:184
+msgid "Catch-all"
+msgstr "Capturar todo"
+
+#: includes/validators/class-zerobounce-validator.php:185
+msgid "Domains that accept all email addresses."
+msgstr "Dominios que aceptan todas las direcciones de correo electrónico."
+
+#: includes/validators/class-zerobounce-validator.php:190
+msgid "Addresses that could not be verified."
+msgstr "Direcciones que no se han podido verificar."
+
+#: includes/validators/class-zerobounce-validator.php:194
+msgid "Invalid"
+msgstr "No válida"
+
+#: includes/validators/class-zerobounce-validator.php:195
+msgid "Addresses that are invalid or do not exist."
+msgstr "Direcciones que no son válidas o no existen."
+
+#: includes/validators/class-zerobounce-validator.php:200
+msgid "Do Not Mail"
+msgstr "No enviar correo"
+
+#: includes/validators/class-zerobounce-validator.php:201
+msgid "Addresses that should not be mailed to."
+msgstr "Direcciones a las que no se debe enviar correo."
+
+#: includes/validators/class-zerobounce-validator.php:206
+msgid "Spam Trap"
+msgstr "Trampa de spam"
+
+#: includes/validators/class-zerobounce-validator.php:207
+msgid "Known spam trap addresses."
+msgstr "Direcciones trampa de spam conocidas."
+
+#: includes/validators/class-zerobounce-validator.php:212
+msgid "Abuse"
+msgstr "Abuso"
+
+#: includes/validators/class-zerobounce-validator.php:213
+msgid "Addresses associated with abuse."
+msgstr "Direcciones asociadas al abuso."
+
+#: includes/validators/class-zerobounce-validator.php:220
+msgid "API key from your ZeroBounce account."
+msgstr "Clave API de tu cuenta ZeroBounce."
+
+#: includes/validators/class-zerobounce-validator.php:221
+msgid "API Key"
+msgstr "Clave API"
+
+#: includes/validators/class-zerobounce-validator.php:274
+msgid "Invalid response from ZeroBounce API"
+msgstr "Respuesta no válida de la API de ZeroBounce"
