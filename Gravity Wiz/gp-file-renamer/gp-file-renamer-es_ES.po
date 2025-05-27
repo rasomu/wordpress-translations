@@ -1,0 +1,71 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP File Renamer 1.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"uiP0keL3mm\n"
+"POT-Creation-Date: 2025-05-14T15:50:16+00:00\n"
+"PO-Revision-Date: 2025-05-27 20:11+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-file-renamer\n"
+
+#. Plugin Name of the plugin
+#: gp-file-renamer.php
+msgid "GP File Renamer"
+msgstr "GP File Renamer"
+
+#. Plugin URI of the plugin
+#: gp-file-renamer.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-file-renamer/"
+msgstr "https://gravitywiz.com/documentation/gravity-forms-file-renamer/"
+
+#. Description of the plugin
+#: gp-file-renamer.php
+msgid ""
+"Effortlessly rename files uploaded with Gravity Forms, powered by flexible "
+"naming templates."
+msgstr ""
+"Cambia sin esfuerzo el nombre de los archivos subidos con Gravity Forms, "
+"gracias a las plantillas de nombres flexibles."
+
+#. Author of the plugin
+#: gp-file-renamer.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-file-renamer.php
+msgid "https://gravitywiz.com/"
+msgstr "https://gravitywiz.com"
+
+#: class-gp-file-renamer.php:599
+msgid "Filename"
+msgstr "Nombre del archivo"
+
+#: class-gp-file-renamer.php:600
+msgid "Incrementer"
+msgstr "Incrementador"
+
+#: class-gp-file-renamer.php:601
+msgid "Deduplicator"
+msgstr "Desduplicador"
+
+#: class-gp-file-renamer.php:612
+msgid "Filename Template"
+msgstr "Plantilla de nombre de archivo"
+
+#: class-gp-file-renamer.php:613
+msgid ""
+"Specify a template that will be used to rename files uploaded in this field. "
+"Use <code>{filename}</code> to include the original filename in the template."
+msgstr ""
+"Especifica una plantilla que se utilizará para renombrar los archivos "
+"cargados en este campo. Utiliza <code>{filename}</code> para incluir el "
+"nombre original del archivo en la plantilla."
