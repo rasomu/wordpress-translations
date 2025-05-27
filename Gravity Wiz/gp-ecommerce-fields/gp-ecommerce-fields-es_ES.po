@@ -1,0 +1,146 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP eCommerce Fields 1.2.32\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-perk-"
+"exFGs0lF2G\n"
+"POT-Creation-Date: 2025-05-14T15:52:13+00:00\n"
+"PO-Revision-Date: 2025-05-27 18:56+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-ecommerce-fields\n"
+
+#. Plugin Name of the plugin
+#: gp-ecommerce-fields.php
+msgid "GP eCommerce Fields"
+msgstr "GP eCommerce Fields"
+
+#. Plugin URI of the plugin
+#: gp-ecommerce-fields.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-ecommerce-fields/"
+msgstr "https://gravitywiz.com/documentation/gravity-forms-ecommerce-fields/"
+
+#. Description of the plugin
+#: gp-ecommerce-fields.php
+msgid ""
+"Make Gravity Forms more eCommerce-friendly with support for Tax, Discounts, "
+"and Subtotal fields."
+msgstr ""
+"Haz que Gravity Forms sea más compatible con el comercio electrónico "
+"gracias a la compatibilidad con los campos Impuestos, Descuentos y Subtotal."
+
+#. Author of the plugin
+#: gp-ecommerce-fields.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-ecommerce-fields.php
+msgid "http://gravitywiz.com/"
+msgstr "https://gravitywiz.com/"
+
+#: class-gp-ecommerce-fields.php:104 class-gp-ecommerce-fields.php:1039
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: class-gp-ecommerce-fields.php:109
+msgid "Coupon Total"
+msgstr "Total del cupón"
+
+#: class-gp-ecommerce-fields.php:114
+msgid "Discounts Total"
+msgstr "Total descuentos"
+
+#: class-gp-ecommerce-fields.php:119
+msgid "Order Summary"
+msgstr "Resumen del pedido"
+
+#: class-gp-ecommerce-fields.php:179 class-gp-ecommerce-fields.php:235
+msgid "Tax Amount"
+msgstr "Importe de impuestos"
+
+#: class-gp-ecommerce-fields.php:179
+msgid ""
+"Specify the percentage amount that should be added to the form total as tax."
+msgstr ""
+"Especifica porcentaje del importe que debe añadirse al total del formulario "
+"en concepto de impuestos."
+
+#: class-gp-ecommerce-fields.php:180 class-gp-ecommerce-fields.php:239
+msgid "Discount Amount"
+msgstr "Importe de descuento"
+
+#: class-gp-ecommerce-fields.php:180
+msgid "Specify the amount that should be discounted from the form total."
+msgstr "Especifica la cantidad que debe descontarse del total del formulario."
+
+#: class-gp-ecommerce-fields.php:181 class-gp-ecommerce-fields.php:256
+msgid "Applicable Products"
+msgstr "Productos a los que se le puede aplicar"
+
+#: class-gp-ecommerce-fields.php:181
+msgid ""
+"Specify which Product fields should be included when calculating the value "
+"of this field."
+msgstr ""
+"Especifica qué campos del Producto deben incluirse al calcular el valor de "
+"este campo."
+
+#. Translators: The %s is replaced with "$10" customized to the user's configured currency.
+#: class-gp-ecommerce-fields.php:247
+msgid "Supports 10&#37; or %s"
+msgstr "Soporta el 10&#37 o %s"
+
+#: class-gp-ecommerce-fields.php:262
+msgid "Include"
+msgstr "Incluir"
+
+#: class-gp-ecommerce-fields.php:265
+msgid "Apply tax to"
+msgstr "Aplicar impuestos a"
+
+#: class-gp-ecommerce-fields.php:268
+msgid "Apply discount to"
+msgstr "Aplicar descuento a"
+
+#: class-gp-ecommerce-fields.php:271
+msgid "all products"
+msgstr "todos los productos"
+
+#: class-gp-ecommerce-fields.php:272
+msgid "specific products"
+msgstr "productos específicos"
+
+#: class-gp-ecommerce-fields.php:278 class-gp-ecommerce-fields.php:279
+msgid "Select Products"
+msgstr "Seleccionar productos"
+
+#: class-gp-ecommerce-fields.php:1034
+msgid "Order"
+msgstr "Orden"
+
+#: class-gp-ecommerce-fields.php:1035
+msgid "Product"
+msgstr "Producto"
+
+#: class-gp-ecommerce-fields.php:1036
+msgid "Qty"
+msgstr "Cant"
+
+#: class-gp-ecommerce-fields.php:1037
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#: class-gp-ecommerce-fields.php:1038
+msgid "Price"
+msgstr "Precio"
+
+#: class-gp-ecommerce-fields.php:1040
+msgid "Total"
+msgstr "Total"
