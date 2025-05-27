@@ -1,0 +1,227 @@
+# Copyright (C) 2023 Gravity Wiz
+# This file is distributed under the same license as the GP Better User Activation plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Better User Activation 1.2.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-"
+"perk-5M3g7sPkL\n"
+"POT-Creation-Date: 2024-08-14T16:56:04+00:00\n"
+"PO-Revision-Date: 2025-05-27 17:34+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: Rafa Soler <info@rafaelsoler.es>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-better-user-activation\n"
+
+#. Plugin Name of the plugin
+#: gp-better-user-activation.php
+msgid "GP Better User Activation"
+msgstr "GP Better User Activation"
+
+#. Plugin URI of the plugin
+#: gp-better-user-activation.php
+msgid ""
+"https://gravitywiz.com/documentation/gravity-forms-better-user-activation/"
+msgstr ""
+"https://gravitywiz.com/documentation/gravity-forms-better-user-activation/"
+
+#. Description of the plugin
+#: gp-better-user-activation.php
+msgid "Take control of your Gravity Forms User Activation page."
+msgstr ""
+"Toma el control de la página de Activación de Usuario de Gravity Forms."
+
+#. Author of the plugin
+#: gp-better-user-activation.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-better-user-activation.php
+msgid "https://gravitywiz.com/"
+msgstr "https://gravitywiz.com"
+
+#: class-gp-better-user-activation.php:266
+msgid "None"
+msgstr "Ninguna"
+
+#: class-gp-better-user-activation.php:344
+msgid "User Activation Page"
+msgstr "Página de activación de usuario"
+
+#: class-gp-better-user-activation.php:346
+msgid ""
+"Select a page to which the user will be directed to activate their account."
+msgstr ""
+"Selecciona una página a la que se dirigirá al usuario para activar su cuenta."
+
+#: class-gp-better-user-activation.php:351
+msgid "Redirect Page"
+msgstr "Redirigir a la página"
+
+#: class-gp-better-user-activation.php:353
+msgid ""
+"Select a page to which the user will be redirected after a successful "
+"activation."
+msgstr ""
+"Selecciona una página a la que se redirigirá al usuario tras una activación "
+"satisfactoria."
+
+#: includes/GPBUA_Merge_Tags.php:61 includes/GPBUA_Merge_Tags.php:127
+msgid "Login"
+msgstr "Acceder"
+
+#: includes/GPBUA_Merge_Tags.php:66
+msgid "Login URL"
+msgstr "URL de inicio de sesión"
+
+#: includes/GPBUA_Merge_Tags.php:71 includes/GPBUA_Merge_Tags.php:135
+msgid "Home"
+msgstr "Página de Inicio"
+
+#: includes/GPBUA_Merge_Tags.php:76
+msgid "Home URL"
+msgstr "URL de la página de inicio"
+
+#: includes/GPBUA_Merge_Tags.php:81
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+#: includes/GPBUA_Merge_Tags.php:86
+msgid "Reset Password URL"
+msgstr "URL para restablecer contraseña"
+
+#: includes/GPBUA_Merge_Tags.php:91
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: includes/GPBUA_Merge_Tags.php:96
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/GPBUA_Merge_Tags.php:101
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/GPBUA_Merge_Tags.php:106
+msgid "Activation Form"
+msgstr "Formulario de activación"
+
+#: includes/GPBUA_Merge_Tags.php:111
+msgid "Error Message"
+msgstr "Mensaje de error"
+
+#: includes/GPBUA_Merge_Tags.php:143
+msgid "Reset your password"
+msgstr "Restablece la contraseña"
+
+#: includes/GPBUA_Merge_Tags.php:192
+msgid "Check your email for the set password link."
+msgstr ""
+"Comprueba tu correo electrónico para ver el enlace para establecer la "
+"contraseña."
+
+#: includes/GPBUA_Merge_Tags.php:194
+msgid "Set your password."
+msgstr "Establece tu contraseña."
+
+#: includes/GPBUA_Merge_Tags.php:199
+msgid "Set at registration."
+msgstr "Establecido en el registro."
+
+#: includes/GPBUA_Meta_Box.php:24
+msgid "Activation View Content"
+msgstr "Contenido de la vista de Activación"
+
+#: includes/GPBUA_Meta_Box.php:116
+msgid "Reset Default Content"
+msgstr "Restablecer contenido por defecto"
+
+#: includes/GPBUA_Meta_Box.php:123
+msgid "Insert Merge Tag"
+msgstr "Pegar etiqueta de inserción"
+
+#: includes/GPBUA_Meta_Box.php:144
+msgid "Supported merge tags"
+msgstr "Etiquetas de inserción admitidas"
+
+#: includes/GPBUA_Meta_Box.php:149
+msgid ""
+" Note that the use of entry-based merge tags are not supported here because "
+"the activation page will not have access to an entry."
+msgstr ""
+" Ten en cuenta que aquí no es posible utilizar etiqueta de inserción basadas "
+"en entradas, porque la página de activación no tendrá acceso a la entrada."
+
+#: includes/GPBUA_Meta_Box.php:162
+msgid "Activation Success"
+msgstr "Activación satisfactoria"
+
+#: includes/GPBUA_Meta_Box.php:170
+msgid "Already Active"
+msgstr "Ya está activo"
+
+#: templates/activate-error-already-active-site.php:1
+#: templates/activate-error-already-active.php:1
+msgid "Your account is already active!"
+msgstr "¡Tu cuenta ya estaba activa!"
+
+#: templates/activate-error-already-active-site.php:3
+#: templates/activate-error-already-active.php:3
+msgid ""
+"Your account has been activated. You may now {gpbua:login} to the site using "
+"your chosen username of {gpbua:username}. Please check your email inbox at "
+"{gpbua:email} for your password and login instructions. If you do not "
+"receive an email, please check your junk or spam folder. If you still do not "
+"receive an email within an hour, you can {gpbua:reset_password}."
+msgstr ""
+"Tu cuenta ha sido activada. Ahora puedes {gpbua:login} acceder al sitio "
+"utilizando el nombre de usuario que has elegido {gpbua:username}. Consulta "
+"la bandeja de entrada de tu correo electrónico en {gpbua:email} para obtener "
+"tu contraseña y las instrucciones de inicio de sesión. Si no recibes un "
+"correo electrónico, comprueba tu carpeta de correo no deseado. Si sigues sin "
+"recibir un correo electrónico en una hora, puedes {gpbua:reset_password}."
+
+#: templates/activate-error-no-key.php:1
+msgid "Activation Key Required"
+msgstr "Clave de activación requerida"
+
+#: templates/activate-error.php:1
+msgid "An error occurred during the activation"
+msgstr "Ocurrió un error durante la activación"
+
+#: templates/activate-error.php:3
+msgid ""
+"Activation was not successful due to the following error: "
+"{gpbua:error_message}"
+msgstr ""
+"La activación no se ha realizado correctamente debido al siguiente error: "
+"{gpbua:error_message}"
+
+#: templates/activate-form.php:3
+msgid "Activation Key:"
+msgstr "Clave de activación:"
+
+#: templates/activate-form.php:7
+msgid "Activate"
+msgstr "Activar"
+
+#: templates/activate-success-site.php:1 templates/activate-success.php:1
+msgid "Your account is now active!"
+msgstr "¡Tu cuenta ya está activa!"
+
+#: templates/activate-success-site.php:3 templates/activate-success.php:3
+msgid "Username:"
+msgstr "Nombre de Usuario:"
+
+#: templates/activate-success-site.php:4 templates/activate-success.php:4
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: templates/activate-success-site.php:6 templates/activate-success.php:6
+msgid ""
+"Your account is now activated. {gpbua:login} or go back to {gpbua:home}."
+msgstr "Tu cuenta ya está activa. {gpbua:login} o vuelve a {gpbua:home}."
