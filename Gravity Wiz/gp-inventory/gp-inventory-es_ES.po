@@ -1,0 +1,432 @@
+# Copyright (C) 2025 Gravity Wiz
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Inventory 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cloned-"
+"perk-2l5R57WAJJ\n"
+"POT-Creation-Date: 2025-05-14T15:42:13+00:00\n"
+"PO-Revision-Date: 2025-05-28 23:53+0200\n"
+"Last-Translator: Rafa Soler <info@rafaelsoler.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+"X-Domain: gp-inventory\n"
+
+#. Plugin Name of the plugin
+#: gp-inventory.php class-gp-inventory.php:665 class-gp-inventory.php:671
+msgid "GP Inventory"
+msgstr "GP Inventory"
+
+#. Plugin URI of the plugin
+#: gp-inventory.php
+msgid "https://gravitywiz.com/documentation/gravity-forms-inventory/"
+msgstr "https://gravitywiz.com/documentation/gravity-forms-inventory/"
+
+#. Description of the plugin
+#: gp-inventory.php
+msgid "Easy, flexible inventory management for Gravity Forms."
+msgstr "Gestión de inventario fácil y flexible para Gravity Forms."
+
+#. Author of the plugin
+#: gp-inventory.php
+msgid "Gravity Wiz"
+msgstr "Gravity Wiz"
+
+#. Author URI of the plugin
+#: gp-inventory.php
+msgid "https://gravitywiz.com/"
+msgstr "https://gravitywiz.com"
+
+#: class-gp-inventory.php:286
+msgid "Add"
+msgstr "Añadir"
+
+#: class-gp-inventory.php:287
+msgid "Adding..."
+msgstr "Añadiendo..."
+
+#: class-gp-inventory.php:288
+msgid "Edit"
+msgstr "Editar"
+
+#: class-gp-inventory.php:289
+msgid "Editing..."
+msgstr "Editando..."
+
+#: class-gp-inventory.php:290
+msgid "Close"
+msgstr "Cerrado"
+
+#: class-gp-inventory.php:291
+msgid "Delete"
+msgstr "Eliminar"
+
+#: class-gp-inventory.php:292 class-gp-inventory.php:328
+msgid "Inventory Type"
+msgstr "Tipo de inventario"
+
+#: class-gp-inventory.php:293
+msgid "Untracked"
+msgstr "Sin rastrear"
+
+#: class-gp-inventory.php:294
+msgid "Simple"
+msgstr "Simple"
+
+#: class-gp-inventory.php:295
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: class-gp-inventory.php:296 class-gp-inventory.php:333
+#: includes/class-inventory-page.php:98 includes/class-inventory-page.php:100
+#: includes/class-inventory-page.php:174
+msgid "Inventory"
+msgstr "Inventario"
+
+#: class-gp-inventory.php:297
+msgid "Inventory Per Combination"
+msgstr "Inventario por combinación"
+
+#: class-gp-inventory.php:298 class-gp-inventory.php:365
+msgid "Resource"
+msgstr "Recurso"
+
+#: class-gp-inventory.php:299 class-gp-inventory.php:370
+msgid "Resource Name"
+msgstr "Nombre del recurso"
+
+#: class-gp-inventory.php:300 class-gp-inventory.php:375
+msgid "Scopes"
+msgstr "Ámbitos"
+
+#: class-gp-inventory.php:301
+msgid "Add Scope"
+msgstr "Añadir alcance"
+
+#: class-gp-inventory.php:302
+msgid "Remove Scope"
+msgstr "Eliminar alcance"
+
+#: class-gp-inventory.php:303
+msgid "Changes will affect any field that is mapped to this resource."
+msgstr ""
+"Los cambios afectarán a cualquier campo que esté asignado a este recurso."
+
+#: class-gp-inventory.php:304
+msgid ""
+"This resource is mapped to a choice-based field. Inventory must be set on "
+"each choice in the field settings."
+msgstr ""
+"Este recurso está asignado a un campo basado en elecciones. El inventario "
+"debe establecerse para cada elección en los ajustes del campo."
+
+#: class-gp-inventory.php:305
+msgid ""
+"Inventory must be set per choice in the <a href=\"#\" class=\"gpi-go-to-"
+"choices\">Choices setting</a>."
+msgstr ""
+"El inventario debe establecerse para cada elección en los <a href=\"#\" "
+"class=\"gpi-go-to-choices\">ajustes de elecciones</a>."
+
+#: class-gp-inventory.php:311
+msgid "Select a Resource"
+msgstr "Selecciona un recurso"
+
+#: class-gp-inventory.php:312
+msgid "Select a Field"
+msgstr "Selecciona un campo"
+
+#: class-gp-inventory.php:313
+msgid "Add Resource"
+msgstr "Agregar recurso"
+
+#. translators: placeholder is for resource name
+#: class-gp-inventory.php:315
+msgid "Edit Resource: %s"
+msgstr "Editar recurso: %s"
+
+#. translators: placeholder is for resource name
+#: class-gp-inventory.php:316 class-gp-inventory.php:385
+msgid "Show available inventory"
+msgstr "Mostrar inventario disponible"
+
+#: class-gp-inventory.php:317 class-gp-inventory.php:390
+msgid "Hide form when inventory exhausted"
+msgstr "Ocultar formulario cuando se agote el inventario"
+
+#: class-gp-inventory.php:318 class-gp-inventory.php:395
+msgid "Hide choice when inventory exhausted"
+msgstr "Ocultar la opción cuando se agote el inventario"
+
+#: class-gp-inventory.php:319 class-gp-inventory.php:338
+msgid "Inventory Insufficient Message"
+msgstr "Mensaje de inventario insuficiente"
+
+#: class-gp-inventory.php:320 class-gp-inventory.php:347
+msgid "Inventory Exhausted Message"
+msgstr "Mensaje de inventario agotado"
+
+#: class-gp-inventory.php:321 class-gp-inventory.php:356
+msgid "Inventory Available Message"
+msgstr "Mensaje de inventario disponible"
+
+#: class-gp-inventory.php:329
+msgid ""
+"Specify how inventory should be tracked for this field.<br><br><b>Untracked:"
+"</b> Inventory will not be tracked for this field.<br><br><b>Simple:</b> "
+"Inventory will be tracked specifically for this field.<br><br><b>Advanced:</"
+"b> Inventory will be tracked by a resource. A resource can be shared by "
+"multiple fields or scoped by a group of fields."
+msgstr ""
+"Especifica cómo se realizará el seguimiento del inventario para este campo."
+"<br><br><b>Sin seguimiento:</b> No se hará un seguimiento del inventario de "
+"este campo.<br><br><b>Simple:</b> El inventario se rastreará específicamente "
+"para este campo.<br><br><b>Avanzado:</b> El inventario será rastreado por un "
+"recurso. Un recurso puede ser compartido por varios campos o definido por un "
+"grupo de campos."
+
+#: class-gp-inventory.php:334
+msgid "Specify the amount of this resource that is available."
+msgstr "Especifica la cantidad de este recurso que está disponible."
+
+#. translators: %s: The default message specified in GP_Inventory::inventory_insufficient_default_message() message.
+#: class-gp-inventory.php:341
+msgid ""
+"Specify a message that will be shown when the quantity requested is greater "
+"than the amount of inventory available.<br><br>Default message:<br>%s"
+msgstr ""
+"Especifica un mensaje que se mostrará cuando la cantidad solicitada sea "
+"superior a la cantidad de inventario disponible.<br><br>Mensaje por defecto:"
+"<br>%s"
+
+#. translators: %s: The default message specified in GP_Inventory::inventory_exhausted_default_message() message.
+#: class-gp-inventory.php:350
+msgid ""
+"Specify a message that will be shown when the inventory is exhausted."
+"<br><br>Default message:<br>%s"
+msgstr ""
+"Especifica un mensaje que se mostrará cuando se agote el inventario."
+"<br><br>Mensaje por defecto:<br>%s"
+
+#. translators: %s: The default message specified in GP_Inventory::inventory_available_default_message() message.
+#: class-gp-inventory.php:359
+msgid ""
+"Specify a message that displays the amount of inventory available."
+"<br><br>Default message:<br>%s"
+msgstr ""
+"Especifica un mensaje que muestre la cantidad de inventario disponible."
+"<br><br>Mensaje por defecto:<br>%s"
+
+#: class-gp-inventory.php:366
+msgid ""
+"Select or create a Resource. A Resource allows you to share inventory across "
+"multiple fields and forms - or - group multiple fields together to scope "
+"inventory by a unique combination of field values. <a href=\"https://"
+"gravitywiz.com/documentation/gravity-forms-inventory/#resources\">Learn more."
+"</a>"
+msgstr ""
+"Selecciona o crea un recurso. Un recurso te permite compartir el inventario "
+"entre varios campos y formularios - o - agrupar varios campos para delimitar "
+"el inventario por una combinación única de valores de campo. <a "
+"href=\"https://gravitywiz.com/documentation/gravity-forms-inventory/"
+"#resources\">Más información.</a>"
+
+#: class-gp-inventory.php:371
+msgid ""
+"Give your Resource a name. This is only used to identify the Resource in the "
+"Form Editor and in other Admin screens."
+msgstr ""
+"Dale un nombre a tu recurso. Sólo se utiliza para identificar el recurso en "
+"el editor de formularios y en otras pantallas de administrador."
+
+#: class-gp-inventory.php:376
+msgid ""
+"Specify scopes that apply to this Resource. Common scopes include Date, "
+"Time, and Location. Resource scopes can be mapped to corresponding fields in "
+"the inventory-enabled field's settings. <a href=\"https://gravitywiz.com/"
+"documentation/gravity-forms-inventory/#scopes\">Learn more.</a>"
+msgstr ""
+"Especifica el alcance aplibles a este recurso. Los alcances comunes incluyen "
+"fecha, hora y ubicación. El alcance de los recursos pueden asignarse a los "
+"campos correspondientes en la configuración del campo habilitado para "
+"inventario. <a href=\"https://gravitywiz.com/documentation/gravity-forms-"
+"inventory/#scopes\">Más información.</a>"
+
+#: class-gp-inventory.php:380
+msgid "Scopes Map"
+msgstr "Asignaciones de alcances"
+
+#: class-gp-inventory.php:381
+msgid "Map each of the selected Resources's scopes to a corresponding field."
+msgstr ""
+"Asigna cada uno de los alcances de los recursos seleccionados a un campo "
+"correspondiente."
+
+#: class-gp-inventory.php:386
+msgid ""
+"Enable this option to display a message indicating how much inventory is "
+"available for this field.<br><br>For choice-based fields, this message will "
+"be appended to the choice label. For all other fields, this message will be "
+"displayed in the field description."
+msgstr ""
+"Activa esta opción para mostrar un mensaje que indique cuánto inventario hay "
+"disponible para este campo.<br><br>Para los campos basados en elecciones, "
+"este mensaje se añadirá a la etiqueta de elección. Para todos los demás "
+"campos, este mensaje se mostrará en la descripción del campo."
+
+#: class-gp-inventory.php:391
+msgid ""
+"Enable this option to hide the form when this field's inventory is "
+"exhausted. For choice-based fields, each choice's inventory must be "
+"exhausted before the form will be hidden."
+msgstr ""
+"Activa esta opción para ocultar el formulario cuando se agote el inventario "
+"de este campo. Para los campos basados en opciones, el inventario de cada "
+"opción debe agotarse antes de que se oculte el formulario."
+
+#: class-gp-inventory.php:396
+msgid ""
+"By default, choices are disabled when their inventory is exhausted. Enable "
+"this option to remove the choice instead."
+msgstr ""
+"Por defecto, las elecciones se desactivan cuando se agota su inventario. "
+"Activa esta opción para eliminar la elección."
+
+#: class-gp-inventory.php:398
+msgid "Error: Could not add resource. Please try again."
+msgstr "Error: No se ha podido añadir el recurso. Inténtalo de nuevo."
+
+#: class-gp-inventory.php:399
+msgid "Error: Could not edit resource. Please try again."
+msgstr "Error: No se ha podido editar el recurso. Inténtalo de nuevo."
+
+#: class-gp-inventory.php:400
+msgid "Error: Could not delete resource. Please try again."
+msgstr "Error: No se ha podido eliminar el recurso. Inténtalo de nuevo."
+
+#. translators: placeholder is for resource name
+#: class-gp-inventory.php:402
+msgid "Are you sure you wish to delete the \"%s\" resource?"
+msgstr "¿Estás seguro de que deseas eliminar el recurso \"%s\"?"
+
+#. translators: placeholder is for resource name
+#: class-gp-inventory.php:403
+msgid ""
+"Deleting scopes on resources with existing entries is not recommend. Are you "
+"sure you wish to delete this scope?"
+msgstr ""
+"No es recomendable borrar lacances de recursos que ya tienen entradas. "
+"¿Estás seguro de que quieres eliminar este alcance?"
+
+#: class-gp-inventory.php:442
+msgid "Sorry, there are no more of this item."
+msgstr "Lo sentimos, no hay más de este artículo."
+
+#: class-gp-inventory.php:449
+msgid "{available} {item|items} available."
+msgstr "{available} {item|items} disponible."
+
+#: class-gp-inventory.php:456
+msgid "({available} {item|items} remaining)"
+msgstr "({available} {item|items} restantes)"
+
+#: class-gp-inventory.php:463
+msgid ""
+"You requested {requested} of this item but there are only {available} of "
+"this item left."
+msgstr ""
+"Has pedido {requested} de este artículo pero sólo queda {available} de este "
+"artículo."
+
+#: class-gp-inventory.php:666 class-gp-inventory.php:672
+msgid "Example tooltip."
+msgstr "Ejemplo de texto emergente."
+
+#: includes/class-inventory-page.php:175
+msgid "This is the Inventory management page for this form."
+msgstr "Esta es la página de gestión del Inventario de este formulario."
+
+#. translators: placeholders for the snippet anchor tag.
+#: includes/class-inventory-shortcode.php:340
+msgid "The %1$sGP Inventory Shortcode Snippet%2$s has been detected."
+msgstr "Se ha detectado el %1$sGP Inventory Shortcode Snippet%2$s."
+
+#: includes/class-inventory-shortcode.php:348
+msgid ""
+"This functionality is now included directly in GP Inventory 1.0+. You can "
+"safely uninstall the snippet—existing shortcodes will still work as expected."
+msgstr ""
+"Esta funcionalidad se incluye ahora directamente en GP Inventory 1.0+. "
+"Puedes desinstalar el fragmento sin problemas: los códigos cortos existentes "
+"seguirán funcionando como es debido."
+
+#. translators: placeholder is selected choice label
+#: includes/class-inventory-type-choices.php:756
+msgid "The choice, \"%s\", which you have selected is no longer available."
+msgstr "La opción \"%s\" que has seleccionado ya no está disponible."
+
+#: includes/class-resources.php:184
+msgctxt "Post Type General Name"
+msgid "Resources"
+msgstr "Recursos"
+
+#: includes/class-resources.php:185
+msgctxt "Post Type Singular Name"
+msgid "Resource"
+msgstr "Recurso"
+
+#: includes/class-resources.php:186
+msgid "Add New Resource"
+msgstr "Agregar nuevo recurso"
+
+#: includes/class-resources.php:187
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: includes/class-resources.php:188
+msgid "New Resource"
+msgstr "Nuevo Activo"
+
+#: includes/class-resources.php:189
+msgid "Edit Resource"
+msgstr "Editar Recurso"
+
+#: includes/class-resources.php:190
+msgid "Update Resource"
+msgstr "Actualizar recurso"
+
+#: includes/class-resources.php:191
+msgid "View Resource"
+msgstr "Ver Activo"
+
+#: includes/class-resources.php:192
+msgid "View Resources"
+msgstr "Ver recursos"
+
+#: includes/class-resources.php:193
+msgid "Search Resources"
+msgstr "Buscar recursos"
+
+#: includes/class-resources.php:194
+msgid "Not found"
+msgstr "No encontrado"
+
+#: includes/class-resources.php:195
+msgid "Not found in Trash"
+msgstr "No encontrado en la papelera"
+
+#: includes/class-resources.php:196
+msgid "Resources list"
+msgstr "Lista de recursos"
+
+#: includes/class-resources.php:197
+msgid "Resources list navigation"
+msgstr "Navegación por la lista de recursos"
+
+#: includes/class-resources.php:198
+msgid "Filter resources list"
+msgstr "Filtrar lista de recursos"
